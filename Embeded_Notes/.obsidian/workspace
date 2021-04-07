@@ -1,0 +1,105 @@
+{
+  "main": {
+    "id": "95f6b2535123fbfb",
+    "type": "split",
+    "children": [
+      {
+        "id": "1372737744fdddec",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f6da29fcef2f421",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6e9462544d42301",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b3bd63c64e70352",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1f20a7eaf8adbc64",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2cf70126477f53e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ec3267318b7472a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b95c7351c281e3e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "ac89687bd07f4080",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 184.49990844726562,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Embeded/Peripherial/电机/电机_Source.md",
+    "直流有刷电机.md",
+    "pictures/Pasted image 20210319012705.png",
+    "STM32_定时器.md",
+    "Untitled.md",
+    "Embeded/Peripherial/电机/野火电机课程/电机_野火课程_Source.md",
+    "Embeded/Peripherial/Peripherial_Source.md",
+    "Embeded/Enbeded_Source.md",
+    "Embeded/HARDWARE/电路/模电数电/PWM相关知识.md",
+    "Embeded/Tools/ARM 编译工具链.md"
+  ]
+}
