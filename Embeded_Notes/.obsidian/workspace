@@ -7,11 +7,8 @@
         "id": "b92fa496e09589e8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Linux_Archlinux.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 363.5
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux_Archlinux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,15 +133,15 @@
   },
   "active": "b92fa496e09589e8",
   "lastOpenFiles": [
-    "Linux_Archlinux.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_宿主机_Source.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux_Source.md",
-    "Embeded/嵌入式系统/操作系统/UCOS/uCOS_任务的定义和切换的实现.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_常用命令.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_Code.md",
-    "Embeded/嵌入式系统/操作系统/UCOS/UCOS_Source.md",
-    "Embeded/嵌入式系统/操作系统/UCOS/uCOS_基础.md",
-    "uCOS_实现时基列表.md",
-    "uCOS_支持多优先级.md"
+    "pictures/Pasted image 20210705210242.png",
+    "pictures/Pasted image 20210622013154.png",
+    "pictures/Pasted image 20210707173028.png",
+    "pictures/Pasted image 20210622014355.png",
+    "pictures/Pasted image 20210629093020.png",
+    "pictures/Pasted image 20210707172112.png",
+    "pictures/Pasted image 20210701165719.png",
+    "pictures/Pasted image 20210705210152.png",
+    "pictures/Pasted image 20210705160400.png",
+    "pictures/Pasted image 20210705160337.png"
   ]
 }
