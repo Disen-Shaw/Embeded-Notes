@@ -9,18 +9,20 @@ Mat的数据分为两部分
 ### Mat的创建方法
 #### 克隆
 Mat m1 = src.clone();
-
+地址不同，不是同一个图像
 #### 复制
 Mat m2 = src.copyTo(m2);
+地址不同，不是同一个图像
 
 #### 赋值法
 Mat m3 = src;
-
+地址不同，不是同一个图像
 #### 创建空白对象
 ![[Pasted image 20210404031444.png]]
 Mat m4 = Mat::zeros(src.size(),src.type());
 Mat m5 = Mat::zeros(Size(512,512),CV_8UC3);
 Mat m6 = Mat::ones(Size(512,512),CV_8UC3);
+默认是黑色
 ```C++
 void QuickDemo::mat_creation_Demo(Mat &image){
 	Mat m1,m2;
@@ -53,6 +55,11 @@ void QuickDemo::mat_creation_Demo(Mat &image){
 	
 }
 ```
+**scalar()函数
+参数：像素值
+返回值： Mat类的一个实例
+**
+
 多个图像创建，并相互复制时，类似于指针，都指向同一个地址区域
 对其中一个进行改动，另一个也会改动
 例如：

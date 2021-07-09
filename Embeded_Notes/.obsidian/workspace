@@ -1,30 +1,33 @@
 {
   "main": {
-    "id": "95f6b2535123fbfb",
+    "id": "279fdebdcc33031b",
     "type": "split",
     "children": [
       {
-        "id": "1372737744fdddec",
+        "id": "b92fa496e09589e8",
         "type": "leaf",
-        "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Linux_Archlinux.md",
+            "mode": "source"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4f6da29fcef2f421",
+    "id": "e36e29dd649b181f",
     "type": "split",
     "children": [
       {
-        "id": "f6e9462544d42301",
+        "id": "11de79f5745f149f",
         "type": "tabs",
+        "dimension": 68.9745264532985,
         "children": [
           {
-            "id": "4b3bd63c64e70352",
+            "id": "ec611554be0dc248",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -32,44 +35,7 @@
             }
           },
           {
-            "id": "1f20a7eaf8adbc64",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
-  },
-  "right": {
-    "id": "2cf70126477f53e5",
-    "type": "split",
-    "children": [
-      {
-        "id": "8ec3267318b7472a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8b95c7351c281e3e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "ac89687bd07f4080",
+            "id": "4ff75d6de779a20a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -84,22 +50,103 @@
             }
           }
         ]
+      },
+      {
+        "id": "e03ad7c71d1fccfa",
+        "type": "tabs",
+        "dimension": 31.025473546701505,
+        "children": [
+          {
+            "id": "7279581420d2c34e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 184.49990844726562,
+    "width": 363.5,
     "collapsed": true
   },
+  "right": {
+    "id": "218c1e615adc48d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d67c39bfa0c2e4be",
+        "type": "tabs",
+        "dimension": 44.13518886679921,
+        "children": [
+          {
+            "id": "541b09ee082a8649",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "cbfbd11ae09ca13a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux_Archlinux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0b70e9a53dc448ca",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "7f971ff3f9e937c6",
+        "type": "tabs",
+        "dimension": 55.86481113320079,
+        "children": [
+          {
+            "id": "e8765d8b298dc910",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5,
+    "collapsed": true
+  },
+  "active": "b92fa496e09589e8",
   "lastOpenFiles": [
-    "Embeded/Peripherial/电机/电机_Source.md",
-    "直流有刷电机.md",
-    "pictures/Pasted image 20210319012705.png",
-    "STM32_定时器.md",
-    "Untitled.md",
-    "Embeded/Peripherial/电机/野火电机课程/电机_野火课程_Source.md",
-    "Embeded/Peripherial/Peripherial_Source.md",
-    "Embeded/Enbeded_Source.md",
-    "Embeded/HARDWARE/电路/模电数电/PWM相关知识.md",
-    "Embeded/Tools/ARM 编译工具链.md"
+    "Linux_Archlinux.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_宿主机_Source.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux_Source.md",
+    "Embeded/嵌入式系统/操作系统/UCOS/uCOS_任务的定义和切换的实现.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_常用命令.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_Code.md",
+    "Embeded/嵌入式系统/操作系统/UCOS/UCOS_Source.md",
+    "Embeded/嵌入式系统/操作系统/UCOS/uCOS_基础.md",
+    "uCOS_实现时基列表.md",
+    "uCOS_支持多优先级.md"
   ]
 }

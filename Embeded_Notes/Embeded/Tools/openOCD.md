@@ -54,13 +54,6 @@ Info : JTAG tap: lm3s.cpu tap/device found: 0x3ba00477
 ```
 
 ## 配置文件解析
-  
-
-
-
-
-
-
 
 
 ## 使用详解

@@ -54,3 +54,50 @@ int rand(void);
 + 在函数调用结束后会在内存中销毁
 
   会在栈区自动销毁
+
+## 多参数函数的使用
+用到了标准库中的stdarg宏
+例如：
+```c
+#include <stdarg.h>
+#include <stdio.h>
+
+float average(int n_values, ...) {
+  va_list var_arg;
+  int count;
+  float sum = 0;
+  /*
+   * 准备访问可变参数
+   */
+  va_start(var_arg, n_values);
+  /*
+   * 添加取自可变参数列表的值
+   */
+  for (count = 0; count < n_values; count++) {
+    sum += va_arg(var_arg, int);
+  }
+  va_end(var_arg);
+  return sum / n_values;
+}
+
+int main(int argc, char *argv[]) {
+  float a = average(2, 3, 4, 5, 6, 7, 8);
+  printf("%f\n", a);
+  return 0;
+}
+```
+### 使用方法
+定义结构体：
+va_list var_args;
+使用结构体
+va_start(var_arg,n_values);
+相应的处理
+for (count = 0; count < n_values; count++) {
+	sum += va_arg(var_arg, int);
+}
+将每个参数相加
+
+最后va_end()
+
+
+

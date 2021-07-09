@@ -1,0 +1,11 @@
+# 嵌入式工具相关
+1. [[ARM_Tools]]
+2. [[openOCD]]
+3. [[ARM-GDB]]
+4. [[Makefile]]
+5. [[cmake]]
+6. [[Minicom]]
+7. [[Git]]
+8. [[GCC]]
+9. [[objdump]]
+10. [[LaTeX]]
