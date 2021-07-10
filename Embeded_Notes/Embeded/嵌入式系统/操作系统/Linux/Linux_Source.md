@@ -1,6 +1,5 @@
 # Linux的相关知识
 
-[[Linux_Code]]
-
-[[Linux_宿主机_Source]]
+[[Linux_源码]]
+[[Linux_上位机_Source]]
 [[嵌入式Linux_Source]]

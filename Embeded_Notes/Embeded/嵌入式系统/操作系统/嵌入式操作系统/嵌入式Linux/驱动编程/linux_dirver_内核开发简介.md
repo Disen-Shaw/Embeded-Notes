@@ -10,7 +10,7 @@ git clone https://github.com/torvalds/linux
 git check v4.1
 ls
 ```
-文件内容如[[Linux_Code]]所示
+文件内容如[[Linux_源码]]所示
 
 ## 内核配置
 Linux内核是一个基于Makefile的大工程，有1000多个选项和驱动程序

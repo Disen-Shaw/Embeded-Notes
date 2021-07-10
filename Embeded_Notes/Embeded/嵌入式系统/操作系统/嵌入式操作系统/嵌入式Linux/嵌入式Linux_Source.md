@@ -1,6 +1,6 @@
 # 嵌入式Linux的相关知识
 ## Linux设备驱动
-[[Linux_Code]]
+[[Linux_源码]]
 ## 书上的内容
 [[linux_dirver_内核开发简介]]
 [[linux_dirver_设备驱动基础]]
