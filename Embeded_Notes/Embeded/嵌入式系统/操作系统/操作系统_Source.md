@@ -5,5 +5,4 @@
 [[计算机操作系统_Source]]
 ## 操作系统应用
 [[Linux_Source]]
-[[uCOS_Source]]
 [[鸿蒙_Source]]

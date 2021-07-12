@@ -1,0 +1,13 @@
+{
+  "readableLineLength": false,
+  "vimMode": false,
+  "showLineNumber": true,
+  "foldHeading": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "pictures",
+  "promptDelete": false,
+  "trashOption": "none",
+  "autoPairBrackets": true,
+  "fileSortOrder": "byCreatedTimeReverse",
+  "strictLineBreaks": false
+}
