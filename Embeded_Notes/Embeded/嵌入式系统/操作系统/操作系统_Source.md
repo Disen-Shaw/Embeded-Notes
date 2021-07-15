@@ -5,4 +5,5 @@
 [[计算机操作系统_Source]]
 ## 操作系统应用
 [[Linux_Source]]
+[[嵌入式操作系统_Source]]
 [[鸿蒙_Source]]
