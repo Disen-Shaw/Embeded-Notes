@@ -131,7 +131,7 @@ QueueHandle_t xQueueCreateStatic(UBaseType_t uxQueueLength,UBaseType_t uxItemSiz
 #### xQueueGenericCreatexQueueGenericCreate()
 用于动态创建队列，创建队列过程中需要的内存均通过 FreeRTOS 中的动态内存管理函数 pvPortMalloc()分配，函数原型如下
 ```c
-QueueHandle_t  xQueueGenericCreate( const UBaseType_t uxQueueLength,const UBaseType_t uxItemSize,const uint8_t ucQueueType )
+QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,const UBaseType_t uxItemSize,const uint8_t ucQueueType )
 ```
 参数：
 + uxQueueLength： 要创建的队列的队列长度，这里是队列的项目数。
@@ -293,5 +293,158 @@ BaseType_t xQueueGenericSend( QueueHandle_t xQueue,
 返回值：
 + pdTRUE： 向队列发送消息成功！
 + errQUEUE_FULL: 队列已经满了，消息发送失败。
+
+#### xQueueSendFromISR()、  xQueueSendToBackFromISR()和xQueueSendToFrontFromISR()
+这三个函数也是向队列中发送消息的，这三个函数用于中断服务函数中。这三个函数本质也宏，其中函数 `xQueueSendFromISR()` 和 `xQueueSendToBackFromISR()` 是一样的，都是后向入队，即将新的消息插入到队列的后面。
+函数 `xQueueSendToFrontFromISR()` 是前向入队，即将新  
+消息插入到队列的前面。
+这三个函数同样调用同一个函数 `xQueueGenericSendFromISR()`
+```c
+BaseType_t xQueueSendFromISR(QueueHandle_t xQueue,
+							const void * pvItemToQueue,
+							BaseType_t * pxHigherPriorityTaskWoken);
+BaseType_t xQueueSendToBackFromISR(QueueHandle_t xQueue,
+									const void * pvItemToQueue,
+									BaseType_t * pxHigherPriorityTaskWoken);
+BaseType_t xQueueSendToFrontFromISR(QueueHandle_t xQueue,
+									const void * pvItemToQueue,
+									BaseType_t * pxHigherPriorityTaskWoken);
+```
+参数：
++ xQueue： 队列句柄，指明要向哪个队列发送数据，创建队列成功以后会返回此队列的队列句柄。
++ pvItemToQueue：指向要发送的消息，发送的时候会将这个消息拷贝到队列中。
++ pxHigherPriorityTaskWoken： 标记退出此函数以后是否进行任务切换，这个变量的值由这三个函数来设置的，用户不用进行设置，用户只需要提供一个变量来保存这个值就行了。当此值为 pdTRUE 的时候在退出中断服务函数之前一定要进行一次任务切换。
+
+返回值：
++ pdTRUE： 向队列中发送消息成功
++ errQUEUE_FULL: 队列已经满了，消息发送失败。
+
+两个函数都是在中断中完成，并不是在任务中，因此没有阻塞时间
+
+#### xQueueOverwriteFromISR()
+xQueueOverwrite()的中断级版本，用在中断服务函数中，在队列满的时候自动覆写掉旧的数据，此函数也是一个宏，实际调用的也是函数 `xQueueGenericSendFromISR()`
+```c
+BaseType_t xQueueOverwriteFromISR(QueueHandle_t xQueue,
+								  const void * pvItemToQueue,
+								  BaseType_t * pxHigherPriorityTaskWoken);
+```
+返回值
++ xQueue： 队列句柄，指明要向哪个队列发送数据，创建队列成功以后会返回此队列的队列句柄。
++ pvItemToQueue：指向要发送的消息，发送的时候会将这个消息拷贝到队列中。
++ pxHigherPriorityTaskWoken： 标记退出此函数以后是否进行任务切换，这个变量的值由这三个函数来设置的，用户不用进行设置，用户只需要提供一个变量来保存这个值就行了。当此值为 pdTRUE 的时候在退出中断服务函数之前一定要进行一次任务切换。
+
+返回值：
++ pdTRUE： 向队列中发送消息成功
++ errQUEUE_FULL: 队列已经满了，消息发送失败。
+
+#### **xQueueGenericSendFromISR()**
+真正执行中断中向队列中发送的函数
+```c
+BaseType_t xQueueGenericSendFromISR(QueueHandle_t xQueue,
+									const void* pvItemToQueue,
+									BaseType_t* pxHigherPriorityTaskWoken,
+									BaseType_t xCopyPosition);
+```
+参数：
++ xQueue： 队列句柄，指明要向哪个队列发送数据，创建队列成功以后会返回此队列的队列句柄。
++ pvItemToQueue：指向要发送的消息，发送的过程中会将这个消息拷贝到队列中。
++ pxHigherPriorityTaskWoken： 标记退出此函数以后是否进行任务切换，这个变量的值由这三个函数来设置的，用户不用进行设置，用户只需要提供一个变量来保存这个值就行了。当此值为 pdTRUE 的时候在退出中断服务函数之前一定要进行一次任务切换。
++ xCopyPosition：入队方式：
+	+ queueSEND_TO_BACK： 后向入队
+	+ queueSEND_TO_FRONT： 前向入队
+	+ queueOVERWRITE： 覆写入队。
+
+返回值：
++ pdTRUE： 向队列发送消息成功！
++ errQUEUE_FULL: 队列已经满了，消息发送失败。
+
+### 队列上锁和解锁
+ 队列的上锁和解锁是两个API函数
+ + 上锁：prvLockQueue()
+ + 解锁：prvUnlockQueue()
+
+### 队列读取消息
+![[Pasted image 20210716144418.png]]
+
+#### xQueueReceive()
+此函数用于在任务中从队列中读取一条(请求)消息，读取成功以后就会将队列中的这条数据删除，此函数的本质是一个宏，真正执行的函数是 `xQueueGenericReceive()`。此函数在读取消息的时候是采用拷贝方式的，所以用户需要提供一个数组或缓冲区来保存读取到的数据，所读取的数据长度是创建队列的时候所设定的每个队列项目的长度。
+```c
+BaseType_t xQueueReceive(QueueHandle_t xQueue,
+						 void * pvBuffer,
+						 TickType_t xTicksToWait);
+```
+参数：
++ xQueue： 队列句柄，指明要读取哪个队列的数据，创建队列成功以后会返回此队列的队列句柄。
++ pvBuffer： 保存数据的缓冲区，读取队列的过程中会将读取到的数据拷贝到这个缓冲区中。
++ xTicksToWait： 阻塞时间，此参数指示当队列空的时候任务进入阻塞态等待队列有数据的最大时间
+
+返回值：
++ pdTRUE： 从队列中读取数据成功
++ pdFALSE: 从队列中读取数据失败
+
+#### xQueuePeek()
+此函数用于从队列读取一条(请求)消息，只能用在任务中！此函数在读取成功以后不会将消息删除，此函数是一个宏，真正执行的函数是 `xQueueGenericReceive()`。
+此函数在读取消息的时候是采用拷贝方式的，所以用户需要提供一个数组或缓冲区来保存读取到的数据，所读取的数据长度是创建队列的时候所设定的每个队列项目的长度
+```c
+BaseType_t xQueuePeek(	QueueHandle_t xQueue,
+						void * pvBuffer,
+						TickType_t xTicksToWait);
+```
+参数：
++ xQueue： 队列句柄，指明要读取哪个队列的数据，创建队列成功以后会返回此队列的队列句柄。
++ pvBuffer： 保存数据的缓冲区，读取队列的过程中会将读取到的数据拷贝到这个缓冲区中。
++ xTicksToWait： 阻塞时间，此参数指示当队列空的时候任务进入阻塞态等待队列有数据的最大时间。
+
+返回值：
++ pdTRUE： 从队列中读取数据成功。
++ pdFALSE: 从队列中读取数据失败。
+
+#### **xQueueGenericReceive()**
+前两个函数最终调用的是这个函数。
+```c
+BaseType_t xQueueGenericReceive(QueueHandle_t xQueue,  
+								void* pvBuffer,  
+								TickType_t xTicksToWait  
+								BaseType_t xJustPeek)
+```
+参数：
++ xQueue： 队列句柄，指明要读取哪个队列的数据，创建队列成功以后会返回此队列的队列句柄。
++ pvBuffer： 保存数据的缓冲区，读取队列的过程中会将读取到的数据拷贝到这个缓冲区中。
++ xTicksToWait： 阻塞时间，此参数指示当队列空的时候任务进入阻塞态等待队列有数据的最大时间。
++ xJustPeek： 标记当读取成功以后是否删除掉队列项，当为 pdTRUE 的时候就不用删除
+
+返回值：
++ pdTRUE： 从队列中读取数据成功
++ pdFALSE: 从队列中读取数据失败
+
+#### xQueueReceiveFromISR()
+在中断服务函数中从队列中读取(请求)一条消息，读取成功以后就会将队列中的这条数据删除。拷贝方式，需要用户准备一个数组或者缓冲区来保存读取到的数据。
+```c
+BaseType_t xQueueReceiveFromISR(QueueHandle_t xQueue,  
+								void* pvBuffer,  
+								BaseType_t * pxTaskWoken);
+```
+参数：
++ xQueue： 队列句柄，指明要读取哪个队列的数据，创建队列成功以后会返回此队列的队列句柄。
++ pvBuffer： 保存数据的缓冲区，读取队列的过程中会将读取到的数据拷贝到这个缓冲区中。
++ pxTaskWoken： 标记退出此函数以后是否进行任务切换，这个变量的值是由函数来设置的，用户不用进行设置，用户只需要提供一个变量来保存这个值就行了。当此值为 pdTRUE 的时候在退出中断服务函数之前一定要进行一次任务切换。
+
+返回值：
++ pdTRUE： 从队列中读取数据成功
++ pdFALSE: 从队列中读取数据失败
+
+#### xQueuePeekFromISR()
+中断中读取队列，不会删除消息
+```c
+BaseType_t xQueuePeekFromISR(QueueHandle_t xQueue,  
+							void * pvBuffer)
+```
+参数:
++ xQueue： 队列句柄，指明要读取哪个队列的数据，创建队列成功以后会返回此队列的队列句柄
++ pvBuffer： 保存数据的缓冲区，读取队列的过程中会将读取到的数据拷贝到这个缓冲区中。
+
+返回值：
++ pdTRUE： 从队列中读取数据成功
++ pdFALSE: 从队列中读取数据失败
 
 

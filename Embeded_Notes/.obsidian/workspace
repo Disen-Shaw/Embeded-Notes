@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FreeRTOS_队列.md",
+            "file": "FreeRTOS_互斥信号量.md",
             "mode": "source"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FreeRTOS_队列.md",
+                "file": "FreeRTOS_互斥信号量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,15 +122,15 @@
   },
   "active": "885d71c7ce812736",
   "lastOpenFiles": [
-    "FreeRTOS_队列.md",
+    "FreeRTOS_互斥信号量.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_Source.md",
-    "FreeRTOS_时间管理.md",
-    "FreeRTOS_任务查询和信息统计API函数.md",
-    "FreeRTOS_系统延时.md",
-    "FreeRTOS_调度器开启任务.md",
-    "FreeRTOS_临界段代码保护.md",
-    "FreeRTOS_内核控制函数.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_配置文件.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_任务基础知识.md"
+    "FreeRTOS_优先级反转.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_任务查询和信息统计API函数.md",
+    "FreeRTOS_二值信号量.md",
+    "FreeRTOS_计数型信号量.md",
+    "FreeRTOS_信号量.md",
+    "FreeRTOS_队列.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_内核控制函数.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_调度器开启任务.md"
   ]
 }

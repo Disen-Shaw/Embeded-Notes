@@ -1,4 +1,4 @@
-# FreeRTOS任务调度器、
+# FreeRTOS任务调度器
 ## 任务调度器开启函数
 基本历程都是在main()函数中创建一个开始任务，后面紧接着调用函数`vTaskStartScheduler()`，这个函数的功能就是开启任务调度器，在task.c中定义。
 主要内容是创建空闲函数，如果使用静态内存的话使用函数`xTaskCreateStatic()`来创建空闲任务，优先级为`tskIDLE_PRIORITY`，宏`tskIDLE_PRIORITY`为0，也就是最低优先级。

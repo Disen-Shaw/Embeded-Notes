@@ -27,4 +27,10 @@ v:void函数
 [[FreeRTOS_内核控制函数]]
 **时间管理**
 [[FreeRTOS_时间管理]]
+**队列以及信号量**
 [[FreeRTOS_队列]]
+信号量
+[[FreeRTOS_二值信号量]]
+[[FreeRTOS_计数型信号量]]
+[[FreeRTOS_优先级反转]]
+[[FreeRTOS_互斥信号量]]
