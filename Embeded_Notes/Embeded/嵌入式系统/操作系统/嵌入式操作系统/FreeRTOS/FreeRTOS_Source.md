@@ -34,3 +34,10 @@ v:void函数
 [[FreeRTOS_计数型信号量]]
 [[FreeRTOS_优先级反转]]
 [[FreeRTOS_互斥信号量]]
+[[FreeRTOS_软件定时器]]
+[[FreeRTOS_事件标志组]]
+模拟信号量，可以使用任务通知
+[[FreeRTOS_任务通知]]
+[[FreeRTOS_低功耗Tickless模式]]
+
+
