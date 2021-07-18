@@ -39,5 +39,7 @@ v:void函数
 模拟信号量，可以使用任务通知
 [[FreeRTOS_任务通知]]
 [[FreeRTOS_低功耗Tickless模式]]
+[[FreeRTOS_空闲任务]]
+[[FreeRTOS_内存管理]]
 
 

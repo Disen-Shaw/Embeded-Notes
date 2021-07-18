@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FreeRTOS_低功耗Tickless模式.md",
+            "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_内存管理.md",
             "mode": "source"
           }
         }
@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 363.5
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FreeRTOS_低功耗Tickless模式.md",
+                "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_内存管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,15 +121,15 @@
   },
   "active": "885d71c7ce812736",
   "lastOpenFiles": [
-    "FreeRTOS_低功耗Tickless模式.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_内存管理.md",
+    "FreeRTOS_内存管理.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_Source.md",
+    "FreeRTOS_空闲任务.md",
+    "FreeRTOS_低功耗Tickless模式.md",
     "Embeded/硬件/嵌入式设备MCU/STM32/STM32_Source.md",
     "Embeded/硬件/嵌入式设备MCU/STM32/Base_Konwledge/STM32_BASE_Source.md",
     "STM32_低功耗模式.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_任务通知.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_队列.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_计数型信号量.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
-    "FreeRTOS_任务通知.md"
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_队列.md"
   ]
 }
