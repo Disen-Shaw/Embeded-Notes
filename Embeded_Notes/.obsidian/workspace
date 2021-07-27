@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "885d71c7ce812736",
+        "id": "07ac63a01a767528",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_内存管理.md",
+            "file": "Embeded/硬件/电子元器件/输出设备/电子器件_LCD液晶显示.md",
             "mode": "source"
           }
         }
@@ -24,7 +24,6 @@
       {
         "id": "11de79f5745f149f",
         "type": "tabs",
-        "dimension": 68.9745264532985,
         "children": [
           {
             "id": "ec611554be0dc248",
@@ -50,25 +49,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "e03ad7c71d1fccfa",
-        "type": "tabs",
-        "dimension": 31.025473546701505,
-        "children": [
-          {
-            "id": "7279581420d2c34e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 299.50000190734863
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -92,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_内存管理.md",
+                "file": "Embeded/硬件/电子元器件/输出设备/电子器件_LCD液晶显示.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,20 +100,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
-    "collapsed": true
+    "width": 323.0453186035156
   },
-  "active": "885d71c7ce812736",
+  "active": "07ac63a01a767528",
   "lastOpenFiles": [
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_内存管理.md",
-    "FreeRTOS_内存管理.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_Source.md",
-    "FreeRTOS_空闲任务.md",
-    "FreeRTOS_低功耗Tickless模式.md",
-    "Embeded/硬件/嵌入式设备MCU/STM32/STM32_Source.md",
-    "Embeded/硬件/嵌入式设备MCU/STM32/Base_Konwledge/STM32_BASE_Source.md",
-    "STM32_低功耗模式.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_任务通知.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_队列.md"
+    "Embeded/硬件/电子元器件/输出设备/电子器件_LCD液晶显示.md",
+    "Embeded/嵌入式系统/嵌入式系统案例/四轴飞行器/四轴飞行器_PID控制原理.md",
+    "Embeded/嵌入式系统/嵌入式系统案例/四轴飞行器/四轴飞行器_PID_C语言实现.md",
+    "openmv_图像处理背景知识.md",
+    "鸿蒙_入门应用.md",
+    "openmv_寻找色块.md",
+    "Embeded/硬件/嵌入式设备MCU/openMV/openmv_Source.md",
+    "openmv_图像处理的方法.md",
+    "Embeded/硬件/嵌入式设备MCU/openMV/openMV_Source.md",
+    "Embeded/Tools/openOCD.md"
   ]
 }

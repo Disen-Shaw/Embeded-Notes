@@ -9,5 +9,5 @@
   "trashOption": "none",
   "autoPairBrackets": true,
   "fileSortOrder": "byCreatedTimeReverse",
-  "strictLineBreaks": false
+  "strictLineBreaks": true
 }

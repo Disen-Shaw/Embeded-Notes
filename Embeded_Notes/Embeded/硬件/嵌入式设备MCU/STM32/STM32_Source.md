@@ -9,4 +9,4 @@
 
 
 ## 其他应用编程
-[[openMV_Source]]
+[[openmv_Source]]

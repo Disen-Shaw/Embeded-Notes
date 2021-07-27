@@ -95,7 +95,7 @@ arm-none-eabi-gcc -c mthumb -mcpu=cortex-m3 -g -wall -o main.o main.c
 | 参数 | 描述         |
 | ---- | ------------ |
 | -T   | 指定链接文件 |
-|      |              |
+
 
 ~~~shell
 arm-none-eabi-gcc -o test.elf main.o startup_stm32f10x_hd.o -mthumb -mcpu=cortex-m3 -T stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=test.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group
