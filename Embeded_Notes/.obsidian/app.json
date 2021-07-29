@@ -1,6 +1,6 @@
 {
   "readableLineLength": false,
-  "vimMode": false,
+  "vimMode": true,
   "showLineNumber": true,
   "foldHeading": true,
   "alwaysUpdateLinks": true,
@@ -9,5 +9,6 @@
   "trashOption": "none",
   "autoPairBrackets": true,
   "fileSortOrder": "byCreatedTimeReverse",
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "foldIndent": true
 }
