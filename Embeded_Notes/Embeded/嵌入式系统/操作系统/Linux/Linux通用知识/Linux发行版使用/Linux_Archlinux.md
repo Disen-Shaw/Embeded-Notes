@@ -51,3 +51,10 @@ pacman -Qdt
 // 删除孤儿
 pacman -R $(pacman -Qdt)
 ```
+
+## 软件回滚
+pacman 的更新方式比较激进，如果给某个软件滚崩了，需要回滚，则要使用 `downgrade` 工具
+```shell
+sudo downgrade (包名)
+```
+接着可以输入选择要回滚的包的版本，进而达成回滚

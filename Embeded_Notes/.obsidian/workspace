@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "07ac63a01a767528",
+        "id": "c977990e8c64fd81",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "操作系统_字符编码.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,13 +39,27 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "15b46a261c1b15d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ae899a7f08333f5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -74,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "操作系统_字符编码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,17 +118,17 @@
     "width": 323.0453186035156,
     "collapsed": true
   },
-  "active": "07ac63a01a767528",
+  "active": "c977990e8c64fd81",
   "lastOpenFiles": [
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_源码.md",
-    "Embeded/Tools/ARM-GDB.md",
-    "Embeded/Tools/ARM_Tools.md",
-    "Embeded/嵌入式系统/嵌入式系统案例/四轴飞行器/四轴飞行器_飞行控制原理.md",
-    "Embeded/Tools/Embeded_Tool_Source.md",
-    "Embeded/嵌入式系统/物联网/计算机网络/计算机网络_Source.md",
-    "Markdown.md",
+    "操作系统_字符编码.md",
+    "Embeded/嵌入式系统/操作系统/操作系统_Source.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/linux_dirver_内核开发简介.md",
     "Embeded/硬件/电子元器件/输出设备/电子器件_LCD液晶显示.md",
-    "Embeded/嵌入式系统/嵌入式系统案例/四轴飞行器/四轴飞行器_PID控制原理.md",
-    "Embeded/嵌入式系统/嵌入式系统案例/四轴飞行器/四轴飞行器_PID_C语言实现.md"
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
+    "Embeded/编程语言/Arduino/Arduino_Serial.md",
+    "Embeded/编程语言/Arduino/Arduino_基础_Source.md",
+    "Embeded/编程语言/Arduino/Arduino_Source.md",
+    "Arduino_PlatformIO_vim配置.md",
+    "Embeded/编程语言/Arduino/Arduino_高级IO.md"
   ]
 }
