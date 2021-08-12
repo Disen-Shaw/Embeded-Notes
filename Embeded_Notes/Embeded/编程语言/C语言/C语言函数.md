@@ -87,16 +87,15 @@ int main(int argc, char *argv[]) {
 }
 ```
 ### 使用方法
-定义结构体：
-va_list var_args;
-使用结构体
-va_start(var_arg,n_values);
-相应的处理
-for (count = 0; count < n_values; count++) {
-	sum += va_arg(var_arg, int);
-}
-将每个参数相加
-
+定义结构体：  
+va_list var_args;  
+使用结构体  
+va_start(var_arg,n_values);  
+相应的处理  
+for (count = 0; count < n_values; count++) {  
+	sum += va_arg(var_arg, int);  
+}  
+将每个参数相加  
 最后va_end()
 
 

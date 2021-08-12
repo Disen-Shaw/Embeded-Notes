@@ -114,10 +114,9 @@ EXPORT:声明一个标号可被外部的文件使用,使标号具有全局属性
  
  ![[Pasted image 20210308201337.png]]
  
- 首先判断是否定义了__MICROLIB ,如果定义了这个宏则赋予标号
-\__initial_sp(栈顶地址)
-\__heap_base(堆起始地址)
-\__heap_limit(堆结束地址)全局属性,可供外部文件调用。
+ 首先判断是否定义了__MICROLIB ,如果定义了这个宏则赋予标号  
+\__initial_sp(栈顶地址)  
+\__heap_base(堆起始地址)  
+\__heap_limit(堆结束地址)全局属性,可供外部文件调用。  
 
-如 果 没 有 定 义 \__MICROLIB , 则 才 用 双 段 存 储 器 模 式 ,且 声 明 标 号
-\__user_initial_stackheap 具有全局属性,让用户自己来初始化堆栈。
+如果没有定义\__MICROLIB,则才用双段存储器模式,且声明标号\__user_initial_stackheap 具有全局属性,让用户自己来初始化堆栈。
