@@ -6,14 +6,14 @@ Linux内核只是鸿蒙支持的内核之一，除了Linux内核之外，还会�
 
 ## 用Windows来理解鸿蒙
 ![[Pasted image 20210605024316.png]]
-对于Windows：
-BIOS启动windows内核，Windows内核运行各种应用程序
+对于Windows：  
+BIOS启动windows内核，Windows内核运行各种应用程序  
 
-对于HarmonyOS：
-bootloader启动RTOS内核，识别根文件系统，进而运行应用程序
+对于HarmonyOS：  
+bootloader启动RTOS内核，识别根文件系统，进而运行应用程序  
 
 ## 鸿蒙的开发环境
-基于VScode的鸿蒙IDE
+基于VScode的鸿蒙IDE  
 鸿蒙IDE分为南向IDE和北向IDE，北向只支持APP，南向指内核
 
 ### 传统的开发方式
