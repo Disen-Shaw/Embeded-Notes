@@ -2,7 +2,7 @@
 ## Linux内核组成
 ### Linux内核源代码目录结构
 Linux内核源代码目录如下：  
-[[Linux_内核组成]]  
+[[Linux_通用底层]]  
 内核一般要做到 `drivers` 与 `arch` 的软件架构分离，驱动中不包含板级信息，让驱动跨平台。
 内核的通用部分(Kernel,fs,ipc,net等)与具体硬件(arch和drivers)分离。
 

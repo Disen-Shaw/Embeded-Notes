@@ -1,5 +1,5 @@
 # Linux的相关知识
 
-[[Linux_内核组成]]  
-[[Linux_上位机_Source]]  
+[[Linux_通用底层]]  
+[[Linux_x86_Source]]  
 [[嵌入式Linux_Source]]  
