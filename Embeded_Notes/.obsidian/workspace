@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "9b8061979898588d",
+        "id": "7200801ac0bc2cbe",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Embeded/硬件/存储器/SD_Card.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -21,6 +24,7 @@
       {
         "id": "11de79f5745f149f",
         "type": "tabs",
+        "dimension": 53.89221556886228,
         "children": [
           {
             "id": "ec611554be0dc248",
@@ -50,6 +54,7 @@
       {
         "id": "15b46a261c1b15d5",
         "type": "tabs",
+        "dimension": 46.10778443113773,
         "children": [
           {
             "id": "6ae899a7f08333f5",
@@ -63,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.01011657714844
+    "width": 341.01011657714844,
+    "collapsed": true
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -87,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Embeded/硬件/存储器/SD_Card.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,23 +113,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 313.5453186035156
+    "width": 313.5453186035156,
+    "collapsed": true
   },
-  "active": "9b8061979898588d",
+  "active": "7200801ac0bc2cbe",
   "lastOpenFiles": [
-    "Linux_设备文件系统.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/嵌入式Linux_Source.md",
-    "Linux_文件系统与设备文件.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_目录结构.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux_Source.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_x86_Source.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_上位机_Source.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_内核组成.md",
-    "Linux_文件系统.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_内核模块.md"
+    "Embeded/硬件/存储器/SD_Card.md",
+    "Embeded/硬件/通信知识/SDIO协议.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_字符设备驱动.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
+    "PCB_设计流程.md",
+    "Embeded/硬件/电路基础/电路图设计/电路和PCB_Source.md",
+    "Embeded/硬件/电路基础/电路图设计/EDA类软件通用规则.md",
+    "Embeded/硬件/电路基础/电路图设计/电路图设计_Source.md",
+    "不同层板的设计.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/嵌入式Linux_Source.md"
   ]
 }
