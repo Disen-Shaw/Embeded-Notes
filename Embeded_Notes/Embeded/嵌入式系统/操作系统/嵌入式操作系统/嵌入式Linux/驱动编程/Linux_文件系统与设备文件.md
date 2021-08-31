@@ -165,7 +165,7 @@ struct file {
 	struct path		f_path;
 	#define f_dentry	f_path.dentry
 	struct inode	*f_inode;  					/* cached value */
-	const struct file_operations *f_op;			/* 和文件相关的操作 */
+	const struct file_operations *f_ops;			/* 和文件相关的操作 */
 	/*
 	 * Protects f_ep_links, f_flags.	
 	 * Must not br taken from IRQ context
@@ -236,7 +236,7 @@ struct inode{
 }
 ```
 对于表示设备文件的 `inode` 结构，`i_rdev` 字段包含设备编号。  
-Linux内核设备编号分为主设备编号和次设备编号，前者为 `dev_t` 高12位，后者为 `dev_t` 的低20位。  
+**Linux内核设备编号分为主设备编号和次设备编号，前者为 `dev_t` 高12位，后者为 `dev_t` 的低20位。 **   
 下面的操作用于从一个 `inode` 中获取主设备号和此设备号
 
 ```c
@@ -249,3 +249,4 @@ unsigned int imajor(struct inode *inode);
 查看 `/dev` 目录可以获知系统中包含的设备文件
 
 主设备号是驱动对应的概念，同一类的设备一般使用相同的主设备号，不同的类设备一般使用不同的主设备号。因为同一个驱动可以支持多个同类设备，因此用此设备号来描述驱动的设备的序号，序号一般从0开始。
+

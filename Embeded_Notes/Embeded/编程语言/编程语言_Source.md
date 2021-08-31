@@ -14,12 +14,12 @@
 + 多态：给函数指针附不同的值来完成不同的行为
 
 ## 编程语言
-1. [[Andriod_Source]]
-2. [[Arduino_Source]]
-3. [[C++_Source]]
-4. [[C_Source]]
-5. [[LUA_SOURCE]]
-6. [[Python_Source]]
+1. [[Andriod_Source]]  
+2. [[Arduino_Source]]  
+3. [[C++_Source]]  
+4. [[C_Source]]  
+5. [[LUA_SOURCE]]  
+6. [[Python_Source]]  
 
 ## 算法部分
-[[算法_Source]]
+[[算法_Source]]  

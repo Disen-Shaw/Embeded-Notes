@@ -1,4 +1,4 @@
-## 异常类型
+# 异常类型
 
 ## 异常类型
 
@@ -43,13 +43,13 @@ typedef struct{
 0-3位未使用，4-7位用于表达优先级
 优先级分组：NVIC->AIRCR:PRIGROUP[10:8]
 
-| 优先级分组           | 主优先级 | 子优先级 | 描述 |
-| -------------------- | -------- | -------- | ---- |
-| NVIC_PriorityGroup_0 | 0 | 0-15 | 主-0bit,子-4bit |
-| NVIC_PriorityGroup_1 | 0-1 | 0-7 | 主-1bit,子-3bit |
-| NVIC_PriorityGroup_2 | 0-3 | 0-3 | 主-2bit,子-2bit |
-| NVIC_PriorityGroup_3 | 0-7 | 0-1 | 主-3bit,子-1bit |
-| NVIC_PriorityGroup_4 | 0-15 | 0 | 主-4bit,子-0bit |
+| 优先级分组           | 主优先级 | 子优先级 | 描述            |
+| -------------------- | -------- | -------- | --------------- |
+| NVIC_PriorityGroup_0 | 0        | 0-15     | 主-0bit,子-4bit |
+| NVIC_PriorityGroup_1 | 0-1      | 0-7      | 主-1bit,子-3bit |
+| NVIC_PriorityGroup_2 | 0-3      | 0-3      | 主-2bit,子-2bit |
+| NVIC_PriorityGroup_3 | 0-7      | 0-1      | 主-3bit,子-1bit |
+| NVIC_PriorityGroup_4 | 0-15     | 0        | 主-4bit,子-0bit |
 
 已经有中断在工作，根据抢占优先级决定新来的中断是否打断原有的中断
 打断就发生中断嵌套，不打断就挂起等着
@@ -79,22 +79,23 @@ $$
 ### 中断配置库函数
 固件库文件 core_cm3.h 的最后,还提供了 NVIC 的一些函数,这些函数遵循 CMSIS 规则,只要是 Cortex-M3 的处理器都可以使用,具体如下:
 
-|NVIC库函数|描述|
-|---|---|
-|void NVIC_EnableIRQ(IRQn_Type IRQn)|使能中断|
-|void NVIC_DisableIRQ(IRQn_Type IRQn)|失能中断|
-|void NVIC_SetPendingIRQ(IRQn_Type IRQn)|设置中断悬起位|
-|void NVIC_ClearPendingIRQ(IRQn_Type IRQn)|清除中断悬起位|
-|uint32_t NVIC_GetPendingIRQ(IRQn_Type IRQn)|获取悬起中断编号|
-|void NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)|设置中断优先级|
-|uint32_t NVIC_GetPriority(IRQn_Type IRQn)|获取中断优先级|
-|void NVIC_SystemReset(void)|系统复位|
+| NVIC库函数                                               | 描述             |
+| -------------------------------------------------------- | ---------------- |
+| void NVIC_EnableIRQ(IRQn_Type IRQn)                      | 使能中断         |
+| void NVIC_DisableIRQ(IRQn_Type IRQn)                     | 失能中断         |
+| void NVIC_SetPendingIRQ(IRQn_Type IRQn)                  | 设置中断悬起位   |
+| void NVIC_ClearPendingIRQ(IRQn_Type IRQn)                | 清除中断悬起位   |
+| uint32_t NVIC_GetPendingIRQ(IRQn_Type IRQn)              | 获取悬起中断编号 |
+| void NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority) | 设置中断优先级   |
+| uint32_t NVIC_GetPriority(IRQn_Type IRQn)                | 获取中断优先级   |
+| void NVIC_SystemReset(void)                              | 系统复位         |
 
 ### 优先级
 在 NVIC 有一个专门的寄存器:中断优先级寄存器 NVIC_IPRx,用来配置外部中断的优先级,IPR 宽度为 8bit,原则上每个外部中断可配置的优先级为 0~255,数值越小,优先级越高。但是绝大多数 CM3 芯片都会精简设计,以致实际上支持的优先级数减少,在F103 中,只使用了高 4bit
-| bit7 | bit6 | bit5 | bit4 | bit3 | bit2 | bit1 | bit0 |
-|----|-----|------|----|------|-----|-----|-----|
-| 用于表达优先级 | 未使用 |
+
+| bit7           | bit6   | bit5 | bit4 | bit3 | bit2 | bit1 | bit0 |
+| -------------- | ------ | ---- | ---- | ---- | ---- | ---- | ---- |
+| 用于表达优先级 | 未使用 |      |      |      |      |      |      |
 
 ### 
 

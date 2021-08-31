@@ -114,6 +114,8 @@ insmod <模块名> 参数名=参数值
 参数类型可以是 byte、short、ushort、int、uint、long、ulong、charp、bool或者invbool(布尔取反)。
 除此之外，模块也可以拥有参数数组，并使用分号分隔输入的数组元素。  
 
+传递数组参数也可以使用 `module_param_array(参数名，参数类型，实际传入参数的个数。参数读写权限)`
+
 在 `/sys/module/模块名/parameters` 中可以找到定义的参数。
 
 ## 导出符号

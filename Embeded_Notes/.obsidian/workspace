@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "7200801ac0bc2cbe",
+        "id": "a346473f4acb10e1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/硬件/存储器/SD_Card.md",
-            "mode": "preview"
+            "file": "Linux_内核工具和辅助函数.md",
+            "mode": "source"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#test",
+                "query": "MAJOR",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "15b46a261c1b15d5",
@@ -68,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.01011657714844,
-    "collapsed": true
+    "width": 266.00000190734863
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/硬件/存储器/SD_Card.md",
+                "file": "Linux_内核工具和辅助函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,24 +113,23 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 313.5453186035156,
-    "collapsed": true
+    "width": 313.5453186035156
   },
-  "active": "7200801ac0bc2cbe",
+  "active": "a346473f4acb10e1",
   "lastOpenFiles": [
-    "Embeded/硬件/存储器/SD_Card.md",
-    "Embeded/硬件/通信知识/SDIO协议.md",
+    "Linux_内核工具和辅助函数.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/嵌入式Linux_Source.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux_Source.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_字符设备驱动.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
-    "PCB_设计流程.md",
-    "Embeded/硬件/电路基础/电路图设计/电路和PCB_Source.md",
-    "Embeded/硬件/电路基础/电路图设计/EDA类软件通用规则.md",
-    "Embeded/硬件/电路基础/电路图设计/电路图设计_Source.md",
-    "不同层板的设计.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/嵌入式Linux_Source.md"
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_文件系统与设备文件.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_内核模块.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_设备文件系统.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_内核及内核编程简介.md",
+    "Linux_设备驱动中的并发控制.md",
+    "Embeded/嵌入式系统/操作系统/HarmonyOS/HarmonyOS底层/LiteOS/LiteOS_Source.md"
   ]
 }

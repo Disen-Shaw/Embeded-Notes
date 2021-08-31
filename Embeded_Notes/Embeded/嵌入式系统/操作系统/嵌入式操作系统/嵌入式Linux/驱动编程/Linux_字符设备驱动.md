@@ -18,8 +18,8 @@ struct cdev {
 使用下面两个定义的宏可以获得主设备号和次设备号。  
 
 ```c
-MAJOR(dev_t dev);
-MINOR(dev_t dev);
+MAJOR(dev_t dev);				// 获取dev_t中的主设备号
+MINOR(dev_t dev);				// 获取dev_t中的次设备号
 ```
 
 使用下面的宏可以通过主设备号和次设备号生成 `dev_t`。
@@ -27,6 +27,7 @@ MINOR(dev_t dev);
 ```c
 MKDEV(int major, int minor);
 ```
+
 
 `cdev` 的另一个重要的成员 `file_operations` 定义了字符设备驱动提供给虚拟文件系统的接口函数。  
 Linux内核提供了一组函数以用于操作 `cdev` 结构体。
@@ -74,8 +75,10 @@ struct cdev *cdev_alloc(void)
 int register_chrdev_region(dev_t from, unsigned count, const char *name);
 int alloc_chrdev_region(dev_t *dev, unsigned baseminor, unsigned count, const char *name);
 ```
-
+分别为静态分配设备号和动态分配设备号  
 函数调用成功后，会把设备号放入第一个参数 `dev` 中。
+
+使用动态分配设备号会优先使用255～234区间的设备号
 
 相应的在调用 `cdev_del()` 函数注销字符设备之后， `unregister_chrdev_region()` 应该调用来释放原先申请的设备号。
 ```c
@@ -249,7 +252,9 @@ long xxx_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)
 + `count` 是要读写的字节数
 + `f_pos` 是写的位置相对于文件开头的偏移
 
-用户空间不能直接访问内核空间的内存，因此借助 `copy_to_user` 和 `copy_from_user` 完成内核与用户空间数据的复制，这两个函数的原型分别是：
+用户空间不能直接访问内核空间的内存
+因此借助 `copy_to_user` 和 `copy_from_user` 完成内核与用户空间数据的复制  
+原型如下：
 + `unsigned long copy_from_user(void *to, const void __user *form, unsigned long count)`
 + `unsigned long copy_to_user(void __user *to, const void *from, unsigned long count)`
 
@@ -502,3 +507,45 @@ static loff_t globalmem_llseek(struct file *filp, loff_t offset, int orig)
 `globalmem` 设备驱动的 `ioctl()` 函数接受 `MEM_CLEAR` 命令，这个命令会把全局内存的有效长度清零。  
 对于设备不支持的命令，`ioctl()` 函数应该返回 `-EINVAL`
 
+```c
+static long globalmem_ioctl(struct *filp, unsigned int cmd, unsigned long arg)
+{
+	struct globalmem_dev *dev = filp->private_datal
+	switch(cmd) {
+	case MEM_CLEAR:
+		memset(dev->mem, 0, GLOBALMEM_SIZE);
+		printk(KERN_INFO "globalmem is set to zero\n");
+		break;
+	default:
+		return -EINVAL;
+	}
+	return 0;
+}
+```
+如果不同设备驱动拥有相同的命令号，就会造成命令码的污染。  
+因此Linux内核推荐采用一套统一的 `ioctl()` 生成方式。
+
+#### ioctl() 命令
+Linux建议使用下面的方式定义 `ioctl()` 命令
+
+| 设备类型 | 序列号 | 方向 | 数据尺寸 |
+| -------- | ------ | ---- | -------- |
+| 8位      | 8位    | 2位  | 13/14位  |
+
++ 命令码的设备类型字段为一个 `幻数`，可以是 `0～0xFF` 的值，内核中的 `ioctl-number.txt` 给出了一些推荐的和已经被使用的 `幻数`，新设备驱动定义 `幻数` 的时候要避免与之发生冲突
++ 命令码的序列号是8位宽
++ 命令码的方向字段为2位，表示数据的传送方向
+	+ `_IOC_NONE`  无数据传输
+	+ `_IOC_READ`  读
+	+ `_IOC_WRITE` 写
+	+ `_IOC_READ|_IOC_WRITE` 双向  
+	数据传送方向应该从应用的角度来看的
++ 命令码的数据长度字段表示设计的用户数据的大小
+	+ 这个成员的宽度依赖于体系结构，通常是13位或者14位
+
+内核还定义了 `_IO()`、`_IOR()`、`_IOW()`、`_IOWR()`四个宏来辅助生成命令
+
+### 使用文件私有数据
+大多数Linux驱动都遵循一个潜规则，那就是将文件的私有数据指向设备结构体，再用 `read()`、`write()`、`ioctl()`、`llseek()` 等函数通过 `private_data` 访问设备结构体  
+
+如果 `globalmem` 不止包括一个设备，而是同时包括两个或者两个以上的设备、采用 `private_data` 的有时就会集中显现出来。
