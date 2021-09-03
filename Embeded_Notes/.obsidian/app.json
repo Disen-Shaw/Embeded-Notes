@@ -1,5 +1,5 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "vimMode": false,
   "showLineNumber": true,
   "foldHeading": true,

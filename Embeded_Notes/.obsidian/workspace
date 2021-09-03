@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a346473f4acb10e1",
+        "id": "ea89d5fea77caead",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux_内核工具和辅助函数.md",
-            "mode": "source"
+            "file": "LiteOS_任务开发流程.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MAJOR",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "15b46a261c1b15d5",
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux_内核工具和辅助函数.md",
+                "file": "LiteOS_任务开发流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,19 +116,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5453186035156
+    "width": 267.1211242675781
   },
-  "active": "a346473f4acb10e1",
+  "active": "ea89d5fea77caead",
   "lastOpenFiles": [
-    "Linux_内核工具和辅助函数.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/嵌入式Linux_Source.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux_Source.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_字符设备驱动.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_文件系统与设备文件.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_内核模块.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_设备文件系统.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/驱动编程/Linux_内核及内核编程简介.md",
-    "Linux_设备驱动中的并发控制.md",
-    "Embeded/嵌入式系统/操作系统/HarmonyOS/HarmonyOS底层/LiteOS/LiteOS_Source.md"
+    "LiteOS_任务开发流程.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务API.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_Source.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务错误码.md",
+    "LiteOS_内核开发.md",
+    "LiteOS_任务API.md",
+    "LiteOS_任务错误码.md",
+    "Embeded/嵌入式系统/操作系统/HarmonyOS/鸿蒙_Source.md",
+    "Embeded/嵌入式系统/操作系统/操作系统_Source.md",
+    "LiteOS_任务概述.md"
   ]
 }
