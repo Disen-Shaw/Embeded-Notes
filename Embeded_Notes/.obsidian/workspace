@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "LiteOS_任务开发流程.md",
-            "mode": "preview"
+            "file": "LiteOS_动态内存_开发流程.md",
+            "mode": "source"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.00000190734863
+    "width": 266.00000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteOS_任务开发流程.md",
+                "file": "LiteOS_动态内存_开发流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,19 +117,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.1211242675781
+    "width": 267.1211242675781,
+    "collapsed": true
   },
   "active": "ea89d5fea77caead",
   "lastOpenFiles": [
-    "LiteOS_任务开发流程.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务API.md",
+    "LiteOS_动态内存_开发流程.md",
+    "LiteOS_动态内存_API.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_Source.md",
+    "LiteOS_静态内存API.md",
+    "LiteOS_内存_开发流程.md",
+    "LiteOS_动态内存API.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务错误码.md",
-    "LiteOS_内核开发.md",
-    "LiteOS_任务API.md",
-    "LiteOS_任务错误码.md",
-    "Embeded/嵌入式系统/操作系统/HarmonyOS/鸿蒙_Source.md",
-    "Embeded/嵌入式系统/操作系统/操作系统_Source.md",
-    "LiteOS_任务概述.md"
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务API.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务开发流程.md",
+    "LiteOS_开发流程.md"
   ]
 }
