@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ea89d5fea77caead",
+        "id": "0e2783638c07e4d8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "LiteOS_动态内存_开发流程.md",
+            "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_异常接管.md",
             "mode": "source"
           }
         }
@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.00000190734863,
-    "collapsed": true
+    "width": 266.00000190734863
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteOS_动态内存_开发流程.md",
+                "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_异常接管.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,17 +119,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "ea89d5fea77caead",
+  "active": "0e2783638c07e4d8",
   "lastOpenFiles": [
-    "LiteOS_动态内存_开发流程.md",
-    "LiteOS_动态内存_API.md",
+    "Embeded/嵌入式系统/操作系统/Linux/LiteOS_异常接管.md",
+    "Embeded/嵌入式系统/操作系统/Linux/LiteOS_队列管理_开发流程.md",
+    "pictures/Pasted image 20210531174427.png",
+    "LiteOS_队列管理_开发流程.md",
+    "LiteOS_异常接管.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_Source.md",
-    "LiteOS_静态内存API.md",
-    "LiteOS_内存_开发流程.md",
-    "LiteOS_动态内存API.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务错误码.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务API.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务开发流程.md",
-    "LiteOS_开发流程.md"
+    "LiteOS_队列管理_API.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_中断管理_开发流程.md",
+    "Embeded/嵌入式系统/操作系统/HarmonyOS/鸿蒙_Source.md",
+    "LiteOS_队列管理_错误码.md"
   ]
 }

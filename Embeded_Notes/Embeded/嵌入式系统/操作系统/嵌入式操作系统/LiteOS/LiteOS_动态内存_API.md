@@ -88,3 +88,6 @@
 | LOSCFG_KERNEL_MEM_SLAB_EXTENTION           | 使能slab功能</br>可以降低系统持续运行过程中内存碎片化的程度                           | YES/NO   | NO                        | 无                               |
 | LOSCFG_KERNEL_MEM_SLAB_AUTO_EXPANSION_MODE | slab自动扩展，当分配给slab的内存不足时</br>能够自动从系统内存池中申请新的空间进行扩展 | YES/NO   | NO                        | LOSCFG_KERNEL_MEM_SLAB_EXTENTION |
 | LOSCFG_MEM_TASK_STAT                       | 使能任务内存统计                                                                      | YES/NO   | LOSCFG_KERNEL_MEM_BESTFIT |                                  |
+
+
+[[LiteOS_动态内存_开发流程]]
