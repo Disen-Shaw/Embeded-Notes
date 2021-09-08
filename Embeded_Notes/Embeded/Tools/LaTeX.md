@@ -1,119 +1,86 @@
-# LaTex的大致使用方法
-## 第一篇文章 Hello，world
-```latex
-\documentclass{article}
-% 这里是导言区
+# LaTeX
+## 解决问题
++ [在线手册](https://texdoc.net)
++ [英文社区](http://tex.stackexchange.com)
++ 中文社区 LaTeX工作室
+
+## 组织文档结构
+### 文档组成
++ 标题
++ 前言/摘要
++ 目录
++ 正文
+	+ 篇、章、节、小节、小段
+		+ 文字、公式
+		+ 列表：编号的、不编号的、带小标题的
+		+ 定理：引理、命题、证明、结论
+		+ 诗歌、引文、程序代码、算法伪码
+		+ 画图
++ 文献
++ 索引、词汇表
+
+Latex支持结构化的文档编写方式，只有具有良好的结构的文档才适合使用Latex编写
+
+### 编写文档步骤
+
++ 拟定主题
++ 列出提纲
++ 填写内容
++ 不太在意格式
+
+### 文档基本结构
+以 `document` 环境为界， `document`
++ 环境前是导言部分(preamble)
++ 环境内部是正文部分
++ 环境之后的部分被忽略
+
+在导言区进行格式设置，正文部分套用格式
+
+```tex
+%%% 简单文档：
+% 导言：格式设置
+\documentclass[b5paper]{geomtry}
+% 正文：填写内容
 \begin{document}
-Hello, world!
+使用 \LaTeX
 \end{document}
 ```
 
-### 分析
-第一行"\documentclass{article}"包含了一个控制序列
+## 文档部件
++ 标题：\\title,\\author,\\date ---- \maketitle
++ 摘要/前言：abstract环境 /\\chapter\*
++ 目录：\\tableofcontents
++ 章节：\\chapter,\\section, ...
++ 附录：\\appendix + \\chapter 或 \\section
++ 文献：\\bibliography
++ 索引：\\printindex
 
-控制序列是以'\'为开头，以第一个空格或者非字母结束的一串文字
+## 文档划分
++ 大型文档\\frontmatter、\\mainmatter、\\backmatter
++ 一般文档：\\appendix
 
-它们并不会被输出，但是会影响文档的输出结果
-这里的控制序列是\documentclass，后面紧跟的{article}是控制序列有一个必要的参数，改参数的值是 article ，这个控制序列的作用是调用名为 article 的文档类
+| 层次 | 名称         | 命令           | 说明                                    |
+| ---- | ------------ | -------------- | --------------------------------------- |
+| -1   | part         | \\part         | 可选的最高层                            |
+| 0    | chapter      | \\chapter      | report，book类最高层                    |
+| 1    | section      | \\section      | article类最高层                         |
+| 2    | subsection   | \\subection    |                                         |
+| 3    | subsubection | \\subsubection | report，book类</br>默认不编号、不编目录 |
+| 4    | paragraph    | \\paragraph    | 默认不编号、不编目录                    |
+| 5    | subparagraph | \\subparagraph | 默认不编号、不编目录                    | 
 
-其后面出现的控制序列`\begin`，这个控制序列总与`\end`成对出现
+## 磁盘文件组织
+小文档将所有内容写在同一个目录中  
+对比较大的文档，可以将文档分成多个文件并划分文件目录结构：
++ 主文档，给出文档框架结构
++ 按内容章节划分不同文件
++ 使用单独的类文件和格式文件设置格式
++ 用小文件隔离复杂的图表
 
-这两个控制序列以及它们中间的内容被称为 环境 
-它们之后的第一个必要参数总是一致的，被称为环境名
+### 相关命令
+\\documentclass：读入文档类文件(.cls)
+\\usepackage：读入一个格式文件——宏包
+\\include：分页，并读入章节文件
+\\input：读入任意文件
 
-`\begin` 和 `\documentclass` 之间的部分称为导言区
-
-**导言区的控制序列通常会影响到整个文档的输出**
-
-
-
-### 中英混排
-
-`class`后面加上**ctex**的宏包，并且加上[UTF-8]文档选项
-
-```latex
-\documentclass[UTF-8]{ctexart}
-\begin{document}
-你好，world
-\end{document}
-```
-
-## LaTeX语法格式
-
-```latex
-\documentclass[options]{class}
-\begin{document}
-% 录入正文内容
-\end{document}
-```
-
-+ options：定制文档类的属性，不同的选项之间要用逗号隔开
-+ class：指定文档类型，如book、report、article、letter等
-
-### 注释
-
-LaTeX有注释
-
-+ 单行：以%开头，是单行注释
-+ 多行：需要用到多行注释的包 \usepackage{verbatim}
-  + \begin{comment}
-    + 多行注释内容
-  + \end{comment}
-
-例如：
-
-```latex
-\documentclass{article}
-\usepackage[UTF8]{ctex}
-\usepackage{verbatim}
-\begin{comment}
-这是一段注释
-\end{comment}
-\begin{document}
-	hello,world
-\end{document}
-```
-
-### 换行、分段、分页
-
-#### 换行
-
-\\\\ ：换到下一行
-
-\\newline也是换到下一行
-
-这里的换行都是段内的换行
-
-#### 分段
-
-\\par：添加在段落末尾或另起一行做分段
-
-**在分段后面敲两个回车**
-
-#### 分页
-
-\\newpage
-
-添加在段落末尾或另起一行进行分页
-
-实例：
-
-```latex
-%! Tex program = xelatex
-\documentclass{article}
-\usepackage[UTF8]{ctex}
-\usepackage{verbatim}
-\begin{document}
-%换行
-三更\\灯火五更鸡，
-
-
-正是男儿读书时。\par
-\noindent 黑发不知勤学早，\newpage
-
-白首方悔读书迟。
-\end{document}
-```
-
-## 文字的粗体、斜体、颜色、大小
 
