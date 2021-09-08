@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cec8f9aa5257b667",
+        "id": "1487732959cfbdcf",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Embeded/硬件/电子元器件/基础元器件/电子器件_继电器.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -93,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/硬件/电子元器件/基础元器件/电子器件_继电器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,26 +107,34 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "3559b1f41b89e56f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "cec8f9aa5257b667",
+  "active": "1487732959cfbdcf",
   "lastOpenFiles": [
-    "Embeded/硬件/电子元器件/基础元器件/电子器件_继电器.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务_错误码.md",
-    "Embeded/嵌入式系统/操作系统/计算机操作系统/计算机操作系统_概述.md",
-    "Embeded/编程语言/C++/Qt/Qt_简单界面.md",
-    "Embeded/硬件/电子元器件/传感器/电子器件_DS18B20.md",
-    "Embeded/硬件/通信知识/通信知识_Source.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LteOS_异常接管_使用方法.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/内核驱动编程/Linux_设备驱动中的并发控制.md",
-    "Embeded/硬件/嵌入式设备MCU/STM32/SoftWare/STM32通信/STM32_I2C外设编程.md",
-    "Embeded/嵌入式系统/物联网/计算机网络/计算机网络_OSI参考模型.md"
+    "Python_变量和字符串.md",
+    "Embeded/编程语言/Python/Python_Source.md",
+    "Embeded/编程语言/编程语言_Source.md",
+    "Embeded/Enbeded_Source.md",
+    "Embeded/编程语言/Python/Python_简介.md",
+    "uboot_Source.md",
+    "Bootloadr_Source.md",
+    "Bootloadr.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式操作系统_Source.md",
+    "Latex_文本环境.md"
   ]
 }

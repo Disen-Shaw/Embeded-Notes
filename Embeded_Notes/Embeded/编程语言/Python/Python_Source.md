@@ -1,3 +1,3 @@
-# Python的根目录
-[[Python_简介]]  
-[[Python_]]  
+# Python
+[[Python_基本内容]]
+

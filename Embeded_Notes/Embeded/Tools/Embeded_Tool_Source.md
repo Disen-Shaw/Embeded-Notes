@@ -8,6 +8,6 @@
 7. [[Git]]
 8. [[GCC]]
 9. [[objdump]]
-10. [[Markdown]]
+10. [[Markdown_公式]]
 11. [[LaTeX_Source]]
 12. [[samba]]
