@@ -9,5 +9,5 @@
 8. [[GCC]]
 9. [[objdump]]
 10. [[Markdown]]
-11. [[LaTeX]]
+11. [[LaTeX_Source]]
 12. [[samba]]

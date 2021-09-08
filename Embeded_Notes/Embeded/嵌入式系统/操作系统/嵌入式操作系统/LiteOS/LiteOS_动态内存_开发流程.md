@@ -5,14 +5,14 @@
 | OS_SYS_MEM_ADDR |                     系统动态内存起始地址                      | \[0～n)  | &m_acuSysMem1\[0]        | 无   |
 | OS_SYS_MEM_SIZE | 系统动态内存池的大小</br>(DDR自适应配置)</br>以 `byte` 为单位 | \[0~n)   | 从bss段末尾至系统DDR末尾 | 无   |
 
-两个参数一般使用默认值即可
+两个参数一般使用默认值即可  
 
 ## 通过 make menuconfig 配置动态内存管理模块
-内核配置参数详情参考 [[LiteOS_动态内存_API]] 的最后一个
+内核配置参数详情参考 [[LiteOS_动态内存_API]] 的最后一个  
 
 
 ## 初始化 LOS_MemInit
-初始一个内存池后如图，生成一个 EndNode，并且剩余的内存全部被标记为FreeNode节点。注：EndNode作为内存池末尾的节点，size为0。
+初始一个内存池后如图，生成一个 EndNode，并且剩余的内存全部被标记为FreeNode节点。注：EndNode作为内存池末尾的节点，size为0  
 
 ![[Pasted image 20210906162519.png]]
 

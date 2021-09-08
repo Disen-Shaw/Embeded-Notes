@@ -1,4 +1,6 @@
 # STM32_I2C编程
+#IIC 
+
 基于标准库
 ## I2C初始化结构体
 ~~~c
@@ -443,4 +445,3 @@ uint8_t I2C_EE_BufferRead(uint8_t* pBuffer, uint8_t ReadAddr,u16 NumByteToRead)
 }	
 ~~~
 
-#IIC 
