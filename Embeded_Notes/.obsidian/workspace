@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/Tools/LaTeX.md",
+            "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
             "mode": "source"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/Tools/LaTeX.md",
+                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +122,7 @@
   },
   "active": "48d78999f052f0f1",
   "lastOpenFiles": [
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
     "Embeded/Tools/LaTeX.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_Source.md",
     "LiteOS_双向链表.md",
@@ -130,7 +131,6 @@
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_时间管理.md",
     "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_常用命令.md",
     "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_内核开发.md",
-    "LiteOS_时间管理.md",
-    "LiteOS_C++支持.md"
+    "LiteOS_时间管理.md"
   ]
 }
