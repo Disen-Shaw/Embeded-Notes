@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "1487732959cfbdcf",
+        "id": "0789938df906a74f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "程序员的数学_逻辑.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "程序员的数学_逻辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +128,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "1487732959cfbdcf",
+  "active": "0789938df906a74f",
   "lastOpenFiles": [
-    "Python_变量和字符串.md",
-    "Embeded/编程语言/Python/Python_Source.md",
-    "Embeded/编程语言/编程语言_Source.md",
-    "Embeded/Enbeded_Source.md",
-    "Embeded/编程语言/Python/Python_简介.md",
-    "uboot_Source.md",
-    "Bootloadr_Source.md",
-    "Bootloadr.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式操作系统_Source.md",
-    "Latex_文本环境.md"
+    "程序员的数学_逻辑.md",
+    "Embeded/Tools/Markdown_公式.md",
+    "数学_Source.md",
+    "未命名.md",
+    "Embeded/编程语言/算法/算法_Source.md",
+    "程序员的数学_0的故事.md",
+    "程序员的数学一_Source.md",
+    "数学.md",
+    "Linux_设备驱动中的阻塞与非阻塞IO.md",
+    "Embeded/编程语言/C语言/C_Source.md"
   ]
 }
