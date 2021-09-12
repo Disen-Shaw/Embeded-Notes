@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0789938df906a74f",
+        "id": "425cb9a66d9e989a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "程序员的数学_逻辑.md",
+            "file": "Python_网络爬虫_概述.md",
             "mode": "source"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "程序员的数学_逻辑.md",
+                "file": "Python_网络爬虫_概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,17 +128,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "0789938df906a74f",
+  "active": "425cb9a66d9e989a",
   "lastOpenFiles": [
-    "程序员的数学_逻辑.md",
-    "Embeded/Tools/Markdown_公式.md",
-    "数学_Source.md",
+    "Python_网络爬虫_概述.md",
+    "Python_网络爬虫_Source.md",
+    "Embeded/编程语言/Python/Python_Source.md",
+    "Python_基本内容.md",
     "未命名.md",
-    "Embeded/编程语言/算法/算法_Source.md",
-    "程序员的数学_0的故事.md",
-    "程序员的数学一_Source.md",
-    "数学.md",
-    "Linux_设备驱动中的阻塞与非阻塞IO.md",
-    "Embeded/编程语言/C语言/C_Source.md"
+    "Python_网络爬虫.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/内核驱动编程/Linux_内核模块.md",
+    "程序员的数学_余数.md",
+    "数学_Source.md",
+    "Embeded/编程语言/算法/算法_Source.md"
   ]
 }
