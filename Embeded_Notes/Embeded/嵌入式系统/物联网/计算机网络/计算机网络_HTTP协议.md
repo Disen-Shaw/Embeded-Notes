@@ -37,15 +37,15 @@
 
 #### 具体连接过程
 ##### 非持久性连接
-假定在浏览器中输入URL:www.someSchool.edu/something/home.index
-HTTP客户端向地址为www.someSchool.edu的服务器上的HTTP服务器进程发起TCP连接请求
-HTTP服务器在端口80等待TCP连接请求，接受连接病通知客户端
-HTTP客户端将HTTP请求消息(包含URL地址)通过TCP连接的套接字发出，消息中包含的URL表明客户端需要的对象something/home.index
-HTTP服务器收到请求消息，解析，产生包含所需要对象的响应消息，并通过套接字发给客户端
-something/home.index
-**HTTP服务器关闭TCP连接**
-HTTP客户端收到相应消息，解析HTTP文件，显示HTML文件，发现10个指向jpeg的超链接
-为每个jpeg对象重复步骤1-5
+假定在浏览器中输入URL:www.someSchool.edu/something/home.index  
+HTTP客户端向地址为www.someSchool.edu的服务器上的HTTP服务器进程发起TCP连接请求  
+HTTP服务器在端口80等待TCP连接请求，接受连接病通知客户端  
+HTTP客户端将HTTP请求消息(包含URL地址)通过TCP连接的套接字发出，消息中包含的URL表明客户端需要的对象something/home.index  
+HTTP服务器收到请求消息，解析，产生包含所需要对象的响应消息，并通过套接字发给客户端  
+something/home.index  
+**HTTP服务器关闭TCP连接**  
+HTTP客户端收到相应消息，解析HTTP文件，显示HTML文件，发现10个指向jpeg的超链接  
+为每个jpeg对象重复步骤1-5  
 
 ##### 响应时间的分析与建模
 + RTT
