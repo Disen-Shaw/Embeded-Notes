@@ -12,5 +12,5 @@
 8. [[C++_项目流程]]
 9. [[C++_模板]]
 ## 库和框架
-1. [[openCV_Source]]
+1. [[opencv_Source]]
 2. [[Qt_Source]]
