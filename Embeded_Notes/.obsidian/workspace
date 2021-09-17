@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "29c773e1bf829c83",
+        "id": "2b839e267bf83a8c",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "opencv_图像处理.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "opencv_图像处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +128,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "29c773e1bf829c83",
+  "active": "2b839e267bf83a8c",
   "lastOpenFiles": [
-    "opencv_Mat对象.md",
+    "opencv_图像处理.md",
     "opencv_Source.md",
+    "opencv_图像混合.md",
+    "Embeded/Tools/Markdown_公式.md",
+    "opencv_Mat对象.md",
     "opencv_矩阵的掩模操作.md",
     "opencv_图像基本操作.md",
-    "Embeded/Tools/Markdown_公式.md",
     "opencv_图像的基本操作.md",
     "opencv_简介.md",
-    "openCV_Source.md",
-    "Embeded/编程语言/C++/C++_Source.md",
-    "Embeded/编程语言/C++/openCV/openCV_Source.md"
+    "openCV_Source.md"
   ]
 }
