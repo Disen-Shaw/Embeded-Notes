@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.00000190734863,
-    "collapsed": true
+    "width": 392.00000190734863
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -126,15 +125,15 @@
   },
   "active": "58799b3b59b76f0c",
   "lastOpenFiles": [
-    "Embeded/硬件/通信知识/CAN协议.md",
-    "Embeded/硬件/通信知识/通信知识_Source.md",
-    "Embeded/硬件/电路基础/模电/模电_Source.md",
-    "Can协议.md",
-    "Embeded/Tools/Markdown_公式.md",
-    "Embeded/硬件/通信知识/DCMI接口.md",
-    "DCMI接口.md",
-    "Embeded/硬件/Hardware_source.md",
-    "电子器件_OV2640.md",
-    "Embeded/硬件/电子元器件/电子元器件_Source.md"
+    "pictures/Pasted image 20210519231846.png",
+    "pictures/Pasted image 20210324113722.png",
+    "pictures/Pasted image 20210530182842.png",
+    "pictures/Pasted image 20210530160356.png",
+    "pictures/Pasted image 20210404031444.png",
+    "pictures/Pasted image 20210326112721.png",
+    "pictures/Pasted image 20210907102614.png",
+    "pictures/Pasted image 20210810035412.png",
+    "pictures/Pasted image 20210520212357.png",
+    "pictures/Pasted image 20210520214304.png"
   ]
 }
