@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b839e267bf83a8c",
+        "id": "58799b3b59b76f0c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "opencv_图像处理.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -93,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "opencv_图像处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,17 +124,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "2b839e267bf83a8c",
+  "active": "58799b3b59b76f0c",
   "lastOpenFiles": [
-    "opencv_图像处理.md",
-    "opencv_Source.md",
-    "opencv_图像混合.md",
+    "Embeded/硬件/通信知识/CAN协议.md",
+    "Embeded/硬件/通信知识/通信知识_Source.md",
+    "Embeded/硬件/电路基础/模电/模电_Source.md",
+    "Can协议.md",
     "Embeded/Tools/Markdown_公式.md",
-    "opencv_Mat对象.md",
-    "opencv_矩阵的掩模操作.md",
-    "opencv_图像基本操作.md",
-    "opencv_图像的基本操作.md",
-    "opencv_简介.md",
-    "openCV_Source.md"
+    "Embeded/硬件/通信知识/DCMI接口.md",
+    "DCMI接口.md",
+    "Embeded/硬件/Hardware_source.md",
+    "电子器件_OV2640.md",
+    "Embeded/硬件/电子元器件/电子元器件_Source.md"
   ]
 }
