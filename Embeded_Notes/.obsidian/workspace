@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "58799b3b59b76f0c",
+        "id": "4431526d55c9e887",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.00000190734863
+    "width": 392.00000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -123,17 +124,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "58799b3b59b76f0c",
+  "active": "4431526d55c9e887",
   "lastOpenFiles": [
-    "pictures/Pasted image 20210519231846.png",
-    "pictures/Pasted image 20210324113722.png",
-    "pictures/Pasted image 20210530182842.png",
-    "pictures/Pasted image 20210530160356.png",
-    "pictures/Pasted image 20210404031444.png",
-    "pictures/Pasted image 20210326112721.png",
-    "pictures/Pasted image 20210907102614.png",
-    "pictures/Pasted image 20210810035412.png",
-    "pictures/Pasted image 20210520212357.png",
-    "pictures/Pasted image 20210520214304.png"
+    "模电_MOS管的工作原理.md",
+    "Embeded/硬件/电路基础/模电/模电_Source.md",
+    "模电_半导体三极管.md",
+    "Embeded/Tools/Markdown_公式.md",
+    "模电_半导体二极管.md",
+    "模电_常用半导体器件.md",
+    "模电_半导体基础知识.md",
+    "Embeded/硬件/Hardware_source.md",
+    "Embeded/硬件/电路基础/电路原理_Source.md",
+    "Bootloadr_Source.md"
   ]
 }
