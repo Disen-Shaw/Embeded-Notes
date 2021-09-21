@@ -7,8 +7,11 @@
         "id": "4431526d55c9e887",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Embeded/Tools/Markdown_公式.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Embeded/Tools/Markdown_公式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,15 +130,15 @@
   },
   "active": "4431526d55c9e887",
   "lastOpenFiles": [
+    "Embeded/Tools/Markdown_公式.md",
+    "Embeded/硬件/电路基础/模电/模电_常用半导体器件.md",
+    "模电_常用半导体器件.md",
     "模电_MOS管的工作原理.md",
     "Embeded/硬件/电路基础/模电/模电_Source.md",
     "模电_半导体三极管.md",
-    "Embeded/Tools/Markdown_公式.md",
     "模电_半导体二极管.md",
-    "模电_常用半导体器件.md",
     "模电_半导体基础知识.md",
     "Embeded/硬件/Hardware_source.md",
-    "Embeded/硬件/电路基础/电路原理_Source.md",
-    "Bootloadr_Source.md"
+    "Embeded/硬件/电路基础/电路原理_Source.md"
   ]
 }
