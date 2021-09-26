@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Embeded/Tools/Markdown_公式.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.00000190734863,
-    "collapsed": true
+    "width": 392.00000190734863
   },
   "right": {
     "id": "218c1e615adc48d9",
