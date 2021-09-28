@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4431526d55c9e887",
+        "id": "6c9c3e5dd1e104d8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Embeded/Tools/Markdown_公式.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -127,17 +127,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "4431526d55c9e887",
+  "active": "6c9c3e5dd1e104d8",
   "lastOpenFiles": [
     "Embeded/Tools/Markdown_公式.md",
-    "Embeded/硬件/电路基础/模电/模电_常用半导体器件.md",
-    "模电_常用半导体器件.md",
-    "模电_MOS管的工作原理.md",
-    "Embeded/硬件/电路基础/模电/模电_Source.md",
-    "模电_半导体三极管.md",
-    "模电_半导体二极管.md",
-    "模电_半导体基础知识.md",
-    "Embeded/硬件/Hardware_source.md",
-    "Embeded/硬件/电路基础/电路原理_Source.md"
+    "Embeded/编程语言/Python/网络爬虫/Python_网络爬虫_概述.md",
+    "Embeded/编程语言/Python/Python_Source.md",
+    "Embeded/编程语言/Python/基础/Python_基本内容.md",
+    "Embeded/嵌入式系统/物联网/物联网认知/物联网认知_蓝牙无线通信技术.md",
+    "Embeded/Tools/ARM-GDB.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/uCOS/uCOS_任务管理_概念.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/uCOS/uCOS_Source.md",
+    "Embeded/Enbeded_Source.md",
+    "Embeded/硬件/电路基础/模电/模电_常用半导体器件.md"
   ]
 }
