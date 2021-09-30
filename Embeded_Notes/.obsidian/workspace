@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/Tools/Markdown_公式.md",
-            "mode": "preview"
+            "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_二值信号量.md",
+            "mode": "source"
           }
         }
       }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/Tools/Markdown_公式.md",
+                "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_二值信号量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,15 +129,15 @@
   },
   "active": "6c9c3e5dd1e104d8",
   "lastOpenFiles": [
-    "Embeded/Tools/Markdown_公式.md",
-    "Embeded/编程语言/Python/网络爬虫/Python_网络爬虫_概述.md",
-    "Embeded/编程语言/Python/Python_Source.md",
-    "Embeded/编程语言/Python/基础/Python_基本内容.md",
-    "Embeded/嵌入式系统/物联网/物联网认知/物联网认知_蓝牙无线通信技术.md",
-    "Embeded/Tools/ARM-GDB.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/uCOS/uCOS_任务管理_概念.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/uCOS/uCOS_Source.md",
-    "Embeded/Enbeded_Source.md",
-    "Embeded/硬件/电路基础/模电/模电_常用半导体器件.md"
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_二值信号量.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/内核驱动编程/Linux_设备驱动中的阻塞与非阻塞IO.md",
+    "Embeded/嵌入式系统/操作系统/计算机操作系统/计算机操作系统_虚拟技术.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linxu_ranger.md",
+    "Embeded/硬件/电路基础/电路图设计/Linux_物理地址与虚拟地址.md",
+    "Embeded/编程语言/Arduino/Arduino_PlatformIO_vim配置.md",
+    "Embeded/编程语言/C语言/C语言函数.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/uCOS/uCOS_消息传递.md",
+    "Embeded/编程语言/Arduino/Arduino_数字IO.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/嵌入式Linux_一切皆文件.md"
   ]
 }

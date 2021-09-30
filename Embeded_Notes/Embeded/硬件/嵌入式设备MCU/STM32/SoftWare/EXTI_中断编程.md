@@ -1,5 +1,11 @@
+---
+date updated: '2021-10-01T07:37:58+08:00'
+
+---
+
 ### EXTI中断编程
-~~~c
+
+```c
 // 引脚配置
 #define KEY1_INT_GPIO_PORT 			GPIOA
 #define KEY1_INT_GPIO_CLK 			RCC_APB2Periph_GPIOA\
@@ -86,8 +92,9 @@ void EXTI_Key_Config(void)
 	EXTI_InitStructure.EXTI_LineCmd = ENABLE;
 	EXTI_Init(&EXTI_InitStructure);
 }
-~~~
-~~~c
+```
+
+```c
 // EXTI 中断服务函数
 void KEY1_IRQHandler(void)
 {
@@ -113,8 +120,9 @@ void KEY2_IRQHandler(void)
 	}
 }
 
-~~~
-~~~c
+```
+
+```c
 // 主函数
 int main(void)
 {
@@ -130,6 +138,8 @@ int main(void)
 	{
 	}
 }
-~~~
+```
+
 ### 使用HAL库编程
+
 使用hal库时对EXTI中断进行操作，需要重构EXTI的回调函数

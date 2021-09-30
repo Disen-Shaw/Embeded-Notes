@@ -1,8 +1,14 @@
+---
+date updated: '2021-10-01T07:48:11+08:00'
+
+---
+
 # C语言函数
+
 ## 函数作用
 
-+ 省略重复的代码，降低冗余
-+ 使程序模块化，利于阅读
+- 省略重复的代码，降低冗余
+- 使程序模块化，利于阅读
 
 **函数指标**
 
@@ -14,7 +20,7 @@
 
 **常用函数**
 
-~~~c
+```c
 #include<time.h>
 time_t time(time_t *t);
 //功能：
@@ -34,30 +40,29 @@ int rand(void);
 	// 返回一个随机数值
 // 返回值：
 	// 随机数
-~~~
+```
 
 ## 函数的定义和使用
 
 **函数的定义**
 
-~~~c
+```c
 返回类型 函数名(参数列表)
 {
 	代码体
 }
-~~~
+```
 
-+ 不同函数中变量名可以相同，因为作用域不同
-
-+ 在函数调用过程中，将实参传递给形参
-
-+ 在函数调用结束后会在内存中销毁
-
+- 不同函数中变量名可以相同，因为作用域不同
+- 在函数调用过程中，将实参传递给形参
+- 在函数调用结束后会在内存中销毁\
   会在栈区自动销毁
 
 ## 多参数函数的使用
+
 用到了标准库中的stdarg宏
 例如：
+
 ```c
 #include <stdarg.h>
 #include <stdio.h>
@@ -86,17 +91,16 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+
 ### 使用方法
-定义结构体：  
-va_list var_args;  
-使用结构体  
-va_start(var_arg,n_values);  
-相应的处理  
-for (count = 0; count < n_values; count++) {  
-	sum += va_arg(var_arg, int);  
-}  
-将每个参数相加  
+
+定义结构体：\
+va_list var_args;\
+使用结构体\
+va_start(var_arg,n_values);\
+相应的处理\
+for (count = 0; count < n_values; count++) {\
+sum += va_arg(var_arg, int);\
+}\
+将每个参数相加\
 最后va_end()
-
-
-

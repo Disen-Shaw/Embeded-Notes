@@ -30,9 +30,10 @@
 | phi     | Φ    | \Phi     | ϕ    | \phi     |
 | chi     | X    | X        | χ    | \chi     |
 | psi     | Ψ    | \Psi     | ψ    | \psi     |
-| omega   | Ω    | \Omega   | ω    | \omega   | 
+| omega   | Ω    | \Omega   | ω    | \omega   |
 
-°C
+°C\
+`\partial`-> $\partial$
 ### 上标与下标
 + 上标使用`^`
 + 下标使用`_`

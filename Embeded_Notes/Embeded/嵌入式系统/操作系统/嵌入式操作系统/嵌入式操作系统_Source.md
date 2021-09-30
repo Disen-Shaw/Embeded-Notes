@@ -7,5 +7,4 @@
 [[LiteOS_Source]]
 
 ## 复杂的Linux操作系统
-[[Bootloadr_Source]]
 [[嵌入式Linux_Source]]
