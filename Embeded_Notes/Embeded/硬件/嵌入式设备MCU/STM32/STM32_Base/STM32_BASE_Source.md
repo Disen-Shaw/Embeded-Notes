@@ -1,23 +1,23 @@
 # STM32基础知识
 记录STM32相关的知识点以及底层
-1.  [[STM32_基础知识]]
-2.  [[STM32_固件库的构建过程]]
-3.  [[STM32_架构与内核]]
-4.  [[STM32_启动文件]]
-5.  [[STM32_GPIO引脚知识]]
-6.  [[STM32_RCC时钟结构]]
-7.  [[STM32_SysTick知识]]
-8.  [[STM32_NVIC中断]]
-9.  [[STM32_EXTI知识]]
-10. [[STM32_DMA]]
-11. [[STM32_串口知识]]
-12. [[STM32_I2C外设]]
-13. [[STM32_SPI外设]]
-14. [[STM32_FSMC]]
-15. [[STM32_FMC]]
-16. [[STM32_基本定时器]]
-17. [[STM32_高级定时器]]
-18. [[STM32_SDIO]]
-19. [[STM32_低功耗模式]]
-20. [[STM32_电机驱动]]
-21. 
+1.  [STM32_基础知识](STM32_基础知识.md)
+2.  [STM32_固件库的构建过程](STM32_固件库的构建过程.md)
+3.  [STM32_架构与内核](STM32_架构与内核.md)
+4.  [STM32_启动文件](STM32_启动文件.md)
+5.  [STM32_GPIO引脚知识](STM32_GPIO引脚知识.md)
+6.  [STM32_RCC时钟结构](STM32_RCC时钟结构.md)
+7.  [STM32_SysTick知识](STM32_SysTick知识.md)
+8.  [STM32_NVIC中断](STM32_NVIC中断.md)
+9.  [STM32_EXTI知识](STM32_EXTI知识.md)
+10. [STM32_DMA](STM32_DMA.md)
+11. [STM32_串口知识](STM32_串口知识.md)
+12. [STM32_I2C外设](STM32_I2C外设.md)
+13. [STM32_SPI外设](STM32_SPI外设.md)
+14. [STM32_FSMC](STM32_FSMC.md)
+15. [STM32_FMC](STM32_FMC.md)
+16. [STM32_基本定时器](STM32_基本定时器.md)
+17. [STM32_高级定时器](STM32_高级定时器.md)
+18. [STM32_SDIO](STM32_SDIO.md)
+19. [STM32_低功耗模式](STM32_低功耗模式.md)
+20. [STM32_电机驱动](STM32_电机驱动.md)
+

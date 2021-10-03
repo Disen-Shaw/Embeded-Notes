@@ -145,7 +145,7 @@ C标准库实现了一个IO缓冲区
 + fflush()
 	+ 强制将IO缓存区的内容写到页缓存区
 
-![[Pasted image 20210620010508.png]]
+![Pasted image 20210620010508](../../../../../pictures/Pasted%20image%2020210620010508.png)
 
 ## 文件IO的五大模式
 + 阻塞模式

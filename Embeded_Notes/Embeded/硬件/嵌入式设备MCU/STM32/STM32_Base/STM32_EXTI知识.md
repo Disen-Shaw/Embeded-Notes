@@ -5,7 +5,7 @@
 EXTI 可以实现对每个中断/事件线进行单独配置,可以单独配置为中断或者事件,以及触发事件的属性。
 ## 功能框图
 
-![[Pasted image 20210308212100.png]]
+![Pasted image 20210308212100](../../../../../pictures/Pasted%20image%2020210308212100.png)
 
 ### 图解
 EXTI可分为两大部分功能：
@@ -41,7 +41,7 @@ EXTI可分为两大部分功能：
 EXTI 有 20 个中断/事件线,每个 GPIO 都可以被设置为输入线,占用 EXTI0 至EXTI15
 还有另外七根用于特定的外设事件
 
-![[Pasted image 20210308213521.png]]
+![Pasted image 20210308213521](../../../../../pictures/Pasted%20image%2020210308213521.png)
 
 ## 中断结构体
 
@@ -63,4 +63,4 @@ typedef struct {
 	+ 下降沿
 + EXTI_LineCmd：是否使能
 
-[[EXTI_中断编程]]
+[EXTI_中断编程](../SoftWare/EXTI_中断编程.md)

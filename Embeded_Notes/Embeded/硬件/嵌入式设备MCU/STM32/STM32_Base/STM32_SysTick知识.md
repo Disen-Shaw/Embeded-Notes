@@ -3,7 +3,7 @@
 SysTick：SysTick—系统定时器是属于 Cortex-M 内核中的一个外设,内嵌在 NVIC 中
 系统定时器，24位只能递减，存在于内核，嵌套在NVIC中，所有的Cortex-M内核的单片机都具有这个定时器
 
-![[Pasted image 20210308220806.png]]
+![Pasted image 20210308220806](../../../../../pictures/Pasted%20image%2020210308220806.png)
 
 COUNTER在时钟的驱动下，从reload初值开始往下递减计数到0，产生中断和置位COUNTFLAG标志，然后从reload值开始重新递减计数，如此循环
 
@@ -73,4 +73,4 @@ static __INLINE uint32_t SysTick_Config(uint32_t ticks)
    
 HAL库中的HAL_Delay()函数是基于SysTick的
 
-[[SysTick_基本编程]]
+[SysTick_基本编程](../SoftWare/SysTick_基本编程.md)

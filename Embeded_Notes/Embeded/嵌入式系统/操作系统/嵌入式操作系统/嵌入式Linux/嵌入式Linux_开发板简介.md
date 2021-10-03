@@ -1,7 +1,7 @@
 # 开发板简介
 ## 开发板外设简介
 开发板使用的是野火iMX6ULLPro开发板
-![[Pasted image 20210524212555.png]]
+![Pasted image 20210524212555](../../../../../pictures/Pasted%20image%2020210524212555.png)
 + 由于外设众多，因此只用USB供电无法满足最小电流
 + 采用DC12V供电方式
 + USB串口通过CH340来连接MCU的串口
@@ -74,7 +74,7 @@ sudo fire-config
 ### 连接WiFi
 首先要烧录镜像，不可以同时使用WiFi和SD卡模块
 关机状态下调整跳线帽的位置
-![[Pasted image 20210526173717.png]]
+![Pasted image 20210526173717](../../../../../pictures/Pasted%20image%2020210526173717.png)
 
 开机登录
 用echo改变配置文件，屏蔽WiFi的串口打印输出

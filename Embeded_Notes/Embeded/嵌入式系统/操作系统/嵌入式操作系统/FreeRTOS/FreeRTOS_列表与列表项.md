@@ -127,7 +127,7 @@ void vListInitialise( List_t * const pxList ){
 	+ 32位：0x5a5a5a5aUL
 
 列表初始化之后如下：
-![[Pasted image 20210714192646.png]]
+![Pasted image 20210714192646](../../../../../pictures/Pasted%20image%2020210714192646.png)
 xListEnd的成员变量写出来了，粉色部分为一体
 
 #### 列表项初始化

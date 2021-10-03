@@ -1,5 +1,5 @@
 # ARM-NONE-EABI-GCC使用
-arm-none-eabi-gcc基本和[[GCC]]一致
+arm-none-eabi-gcc基本和[GCC](GCC.md)一致
 ## 第一步 建立文档
 建立文档用来存放整个工程
 

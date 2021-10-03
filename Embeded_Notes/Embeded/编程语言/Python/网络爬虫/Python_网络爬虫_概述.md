@@ -33,7 +33,7 @@
 + 基于url地址变化、内容也随之变化的数据增量爬虫
 + url地址不变，内容变化的数据增量爬虫
 
-![[Pasted image 20210913011708.png]]
+![Pasted image 20210913011708](../../../../pictures/Pasted%20image%2020210913011708.png)
 
 ## 爬虫的流程
 ```mermaid

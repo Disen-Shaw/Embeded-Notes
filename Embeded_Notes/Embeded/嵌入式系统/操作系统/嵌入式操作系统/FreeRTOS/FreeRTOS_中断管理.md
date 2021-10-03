@@ -31,10 +31,10 @@ Cortex-M3和M4的NVIC最多支持240个IRQ(中断请求)、一个不可屏蔽中
 	+ 用来设置内核中断优先级
 	+ 这个宏为configLIBRARY_LOWEST_INTERRUPT_PRIORITY左移8-configPRIO_BITS位得到的，也就是左移四位。
 	+ 这个宏用来设置PendSV和滴答定时器的中断优先级，在port.c中有定义
-	![[Pasted image 20210714181125.png]]
+	![Pasted image 20210714181125](../../../../../pictures/Pasted%20image%2020210714181125.png)
 	+ PendSV和SysTick的中断优先级设置是操作`0xE000_ED20`地址的，这样一次写入的是32个位的数据，SysTick和PendSV的优先级寄存器分别对应这个32位数据的最高八位和次高八位。
 	+ PendSV的优先级在xPortStartScheducler()中设置，此函数在文件port.c中
-	![[Pasted image 20210714181702.png]]
+	![Pasted image 20210714181702](../../../../../pictures/Pasted%20image%2020210714181702.png)
 	这个位置设置PendSV和SysTick优先级，直接向地址`portNVIC_SYSPRI2_REG`写入优先级数据，`portNVIC_SYSPRI2_REG`是个宏，也是在同文件中定义的，就是相关寄存器的地址
 	
 + configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY
@@ -42,7 +42,7 @@ Cortex-M3和M4的NVIC最多支持240个IRQ(中断请求)、一个不可屏蔽中
 + configMAX_SYSCALL_INTERRUPT_PRIORITY
 	+ configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY左移4位得到，此宏设置好以后，低于此优先级的中断可以安全的调用FreeRTOS的API函数，高于此优先级的中断FreeRTOS是不能禁止的，中断服务函数也不能调用FreeRTOS的API
 
-	![[Pasted image 20210714182449.png]]
+	![Pasted image 20210714182449](../../../../../pictures/Pasted%20image%2020210714182449.png)
 	
 	configMAX_SYSCALL_INTERRUPT_PRIORITY的优先级不会被FreeRTOS内核屏蔽，因此那些对实时性要求严格的任务就可以使用这些优先级，比如四轴飞行器中的壁障检测。
 ## FreeRTOS开关中断

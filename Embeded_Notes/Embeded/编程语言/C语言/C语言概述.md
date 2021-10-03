@@ -162,11 +162,11 @@ gcc xxx.o -o xxx
 
 ### 寄存器的名称
 
-![[Pasted image 20210308185021.png]]
+![Pasted image 20210308185021](../../../pictures/Pasted%20image%2020210308185021.png)
 
 >执行过程
 
-![[Pasted image 20210308185050.png]]
+![Pasted image 20210308185050](../../../pictures/Pasted%20image%2020210308185050.png)
 *cpu与内存之间还有一定的缓存(Cache)** 
 
 ##  汇编语言和程序调试

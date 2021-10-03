@@ -36,7 +36,7 @@ FatFs核心文件，文件管理的实现方法
 支持RTOS，提供FatFs功能的县城安全保障功能
 
 ## FatFs在程序中的关系网络
-![[Pasted image 20210612021531.png]]
+![Pasted image 20210612021531](../../../../../pictures/Pasted%20image%2020210612021531.png)
 用户应用程序由用户编写，想实现什么功能就写什么程序
 一般只用到下面几个程序
 f_mount()、f_open()、f_write()、f_read()

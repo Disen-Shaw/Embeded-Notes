@@ -1,7 +1,7 @@
 # $\LaTeX$ 文本盒子
 在 $\TeX$ 排版中，所有内容都会被转换为嵌套的盒子．每个字符是一个盒子，多个字符盒子组成一个行盒子，而多个行盒子组成一个页盒子、
 
-![[Pasted image 20210909084233.png]]
+![Pasted image 20210909084233](../../../pictures/Pasted%20image%2020210909084233.png)
 
 每个盒子有三个尺寸：宽度(Width)、高度(height)和深度(depth)
 
@@ -53,7 +53,7 @@ One\\ Two\\ Three
 ```
 其中必须指定盒子宽度．两者的用法和参数都一样，只是在 `\parbox` 中不能包含某些命令或环境，而 `minipage` 中的内容几乎没有限制
 
-![[Pasted image 20210909090241.png]]
+![Pasted image 20210909090241](../../../pictures/Pasted%20image%2020210909090241.png)
 
 `\parbox` 和 `minipage` 都不含边框，但我们可以将它们放在 `\fbox`  中得到边框
 ```tex

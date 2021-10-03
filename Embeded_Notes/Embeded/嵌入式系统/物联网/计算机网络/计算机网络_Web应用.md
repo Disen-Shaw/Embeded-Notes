@@ -15,9 +15,9 @@ WWW:World Wide Web万维网
 + Scheme://host:port/path 协议：主机/ip地址 端口号 路径
 
 ### HTTP协议
-[[计算机网络_HTTP协议]]
+[计算机网络_HTTP协议](计算机网络_HTTP协议.md)
 
 ## Web技术
-[[计算机网络_Cookie技术]]
-[[计算机网络_Web缓存代理服务器技术]]
+[计算机网络_Cookie技术](计算机网络_Cookie技术.md)
+[计算机网络_Web缓存代理服务器技术](计算机网络_Web缓存代理服务器技术.md)
 

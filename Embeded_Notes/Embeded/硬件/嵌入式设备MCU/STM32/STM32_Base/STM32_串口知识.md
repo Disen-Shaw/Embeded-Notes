@@ -1,7 +1,7 @@
 # STM32 UART外设
 ## STM32外设框图
 `F1\F4\F7 USART外设`
-![[Pasted image 20210607000324.png]]
+![Pasted image 20210607000324](../../../../../pictures/Pasted%20image%2020210607000324.png)
 基本原理差不多
 H7有两个时钟域
 ## USART主要特性
@@ -35,5 +35,5 @@ H7有两个时钟域
 + 多处理器通信：从静默模式唤醒
 
 
-[[STM32_串口编程]]
+[STM32_串口编程](../SoftWare/STM32通信/STM32_串口编程.md)
   

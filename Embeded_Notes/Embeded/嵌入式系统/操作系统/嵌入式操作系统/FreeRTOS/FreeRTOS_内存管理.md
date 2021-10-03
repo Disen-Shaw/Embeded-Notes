@@ -183,7 +183,7 @@ static void prvHeapInit( void )
 
 每个内存块前面都会保存一个 BlockLink_t 类型的结构体变量，这个结构体变量用来描述此内存块的大小和下一个空闲内存块的地址。
 
-![[Pasted image 20210718193857.png]]
+![Pasted image 20210718193857](../../../../../pictures/Pasted%20image%2020210718193857.png)
 
 ### 内存插入函数
 heap_2允许内存释放，释放的内存肯定是要添加到空闲内存链表中的，宏

@@ -2,7 +2,7 @@
 
 ## STM32芯片架构
 
-![[Pasted image 20210308144545.png]]
+![Pasted image 20210308144545](../../../../../pictures/Pasted%20image%2020210308144545.png)
 
 ARM为IP厂商，设计芯片架构
 
@@ -10,7 +10,7 @@ ST为SOC厂商，设计并生产芯片
 
 ## STM32系统架构
 
-![[Pasted image 20210308144617.png]]
+![Pasted image 20210308144617](../../../../../pictures/Pasted%20image%2020210308144617.png)
 
 > 黄色部分属于内核的驱动单元
 >

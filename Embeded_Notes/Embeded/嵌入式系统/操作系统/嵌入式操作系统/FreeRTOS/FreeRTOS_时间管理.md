@@ -188,7 +188,7 @@ xConstTickCount ) )
 这个延时时间是相对于 `pxPreviousWakeTime` 的，也就是上一次任务被唤醒的时间点  
 pxPreviousWakeTime、xTimeToWake、xTimeIncrement 和 xConstTickCount的关系如图：  
 
-![[Pasted image 20210715220655.png]]
+![Pasted image 20210715220655](../../../../../pictures/Pasted%20image%2020210715220655.png)
 
 也就是说如果使用 vTaskDelayUntil()的话任务相当于任务的执行周期永远都是 xTimeIncrement，而任务一定要在这个时间内执行完成。这样就保证了任务永远按照一定的频率运行了，这个延时值就是绝对延时时间，因此函数 vTaskDelayUntil()也叫做绝对延时函数
 

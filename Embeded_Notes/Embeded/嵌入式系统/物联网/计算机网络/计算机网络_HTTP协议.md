@@ -82,7 +82,7 @@ HTTP协议有两类消息
 
 请求消息：
 ASCII写的，人可以直接读
-![[Pasted image 20210531004733.png]]
+![Pasted image 20210531004733](../../../../pictures/Pasted%20image%2020210531004733.png)
 第一行 请求行
 第一部分时请求的命令
 第二部分是URL
@@ -97,7 +97,7 @@ ASCII写的，人可以直接读
 
 ## HTTP请求消息
 ### HTTP请求消息通用格式
-![[Pasted image 20210531005056.png]]
+![Pasted image 20210531005056](../../../../pictures/Pasted%20image%2020210531005056.png)
 CR是换行
 请求消息携带数据->用户名密码等，向服务器发数据
 
@@ -126,7 +126,7 @@ CR是换行
 
 
 ## HTTP响应消息
-![[Pasted image 20210531010321.png]]
+![Pasted image 20210531010321](../../../../pictures/Pasted%20image%2020210531010321.png)
 第一行是状态行 使用的HTTP版本、返回的状态码、状态码的解释
 第二行是一样的
 第三行Date是 Web服务器生成响应消息的时间

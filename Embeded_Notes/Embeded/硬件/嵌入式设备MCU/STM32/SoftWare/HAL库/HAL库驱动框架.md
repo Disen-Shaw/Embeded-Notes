@@ -32,7 +32,7 @@ HAL_xx_StateTypeDef类型，指示外设的状态
 #### 其他init方法...
 看How to use this driver，了解具体外设库如何使用
 
-![[Pasted image 20210312192637.png]]
+![Pasted image 20210312192637](../../../../../../pictures/Pasted%20image%2020210312192637.png)
 
 ### 外设的使用逻辑
 #### 阻塞轮询(询问是否已准备)

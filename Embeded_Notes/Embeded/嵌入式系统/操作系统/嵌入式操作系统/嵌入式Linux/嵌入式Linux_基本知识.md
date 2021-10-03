@@ -71,7 +71,7 @@ RTOS任务调度
 
 ## 嵌入式开发有哪些内容
 嵌入式Linux系统，就相当于一套完整的PC软件系统
-![[Pasted image 20210707004737.png]]
+![Pasted image 20210707004737](../../../../../pictures/Pasted%20image%2020210707004737.png)
 开发嵌入式linux基本开发linux的四个部分
 
 ### Windows

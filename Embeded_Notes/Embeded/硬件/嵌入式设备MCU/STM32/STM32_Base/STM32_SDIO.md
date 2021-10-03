@@ -15,7 +15,7 @@ SDIO使用两个时钟信号 `因具体型号而异`
 	+ SDIOCLK=48MHz `F2、4等系列，单独的时钟`
 + AHB总线时钟的二分频(HCLK/2，一般为36MHz)
 
-![[Pasted image 20210823003804.png]]
+![Pasted image 20210823003804](../../../../../pictures/Pasted%20image%2020210823003804.png)
 
 STM32控制器的SDIO是针对MMC卡和SD卡的主设备，所以预留8根数据线，对于SD卡最多只用了4跟数据线
 
@@ -27,16 +27,16 @@ STM32控制器的SDIO是针对MMC卡和SD卡的主设备，所以预留8根数�
 + 寄存器单元
 + FIFO
 
-![[Pasted image 20210823004444.png]]
+![Pasted image 20210823004444](../../../../../pictures/Pasted%20image%2020210823004444.png)
 
 ### 命令通道
 命令通道控制命令发送，并接收卡的响应，当SD卡处于某一状态时，SDIO适配器必然处于特定状态与之对应。  
 STM32控制器以命令通道状态机(CPSM)来描述 `SDIO` 适配器状态变化，并加入等待超时检测功能，一边退出永久等待的情况。
 
-![[Pasted image 20210823005008.png]]
+![Pasted image 20210823005008](../../../../../pictures/Pasted%20image%2020210823005008.png)
 
 ### CPSM状态机
-![[Pasted image 20210823005844.png]]
+![Pasted image 20210823005844](../../../../../pictures/Pasted%20image%2020210823005844.png)
 
 ### 数据FIFO
 数据FIFO(先进先出)部件是一个数据缓冲器，带发送和接收单元。控制器的FIFO包含宽度为32bit、深度为32字节的数据缓冲器和发送/接收逻辑。
@@ -49,7 +49,7 @@ SDIO状态寄存器(SDIO_STA)的TXACT位用于指示当前正在发送数据，R
 根据FIFO空或者满状态会把SDIO_STA寄存器位值1,并可以产生中断和DMA请求。
 
 ### DPMS状态机
-![[Pasted image 20210823010822.png]]
+![Pasted image 20210823010822](../../../../../pictures/Pasted%20image%2020210823010822.png)
 
 
 ### 适配寄存器

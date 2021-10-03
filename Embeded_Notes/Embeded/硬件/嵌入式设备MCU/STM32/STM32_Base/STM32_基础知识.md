@@ -67,7 +67,7 @@ ISP(In-System-Programming)在系统可编程，电路板上的空白器件可以
 
 3. 数字表示型号
 
-![[Pasted image 20210309230825.png]]
+![Pasted image 20210309230825](../../../../../pictures/Pasted%20image%2020210309230825.png)
 
 ### 选择方式
 

@@ -241,7 +241,7 @@ void vTaskList( char * pcWriteBuffer )
 
 ### vTaskGetRunTimeStats()
 FreeRTOS可以通过相关的配置来统计任务的运行时间信息，任务的运行时间信息提供了每个任务获取到CPU使用权总的时间。函数vTaskGetRunTimeStats()会将统计到的信息填充到一个表里面，表里面提供了每个任务的运行时间和其所占总时间的百分比
-![[Pasted image 20210714215657.png]]
+![Pasted image 20210714215657](../../../../../pictures/Pasted%20image%2020210714215657.png)
 函数`vTaskGetRunTimeStats()`是一个很实用的函数，要使用此函数的话宏`configGENERATE_RUN_TIME_STATS`和`configUSE_STATS_FORMATTING_FUNCTIONS`必须都为1。
 如果宏`configGENERATE_RUN_TIME_STATS`为1的话还需要实现一下几个宏定义
 `portCONFIGURE_TIMER_FOR_RUN_TIME_STATS()`:此宏用来初始化一个外设来提供时间统计功能所需的时基，一般是定时器/计数器。这个时基的分辨率一定要比FreeRTOS的系统时钟高，一般这个时基的时钟精度比系统时钟的高10~20倍就可以了

@@ -21,5 +21,3 @@
 5. [[LUA_SOURCE]]  
 6. [[Python_Source]]  
 
-## 算法部分
-[[算法_Source]]  

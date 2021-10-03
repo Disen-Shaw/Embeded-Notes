@@ -356,7 +356,7 @@ int hrtimer_callback_running(struct hrtimer *timer);
 + 信号量
 + 自旋锁
 
-[[Linux_设备驱动中的并发控制]]
+[Linux_设备驱动中的并发控制](Linux_设备驱动中的并发控制.md)
 
 ## 工作延迟机制
 延迟是将所要做的工作安排在将来执行的一种方式，这种方法推后发布操作  

@@ -4,7 +4,7 @@
 ## requests模块的作用
 发送http请求，获取响应数据
 
-[[Python_网络爬虫_requests_Get请求]]  
+[Python_网络爬虫_requests_Get请求](Python_网络爬虫_requests_Get请求.md)  
 
 
 

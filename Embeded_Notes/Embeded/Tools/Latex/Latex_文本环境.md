@@ -115,7 +115,7 @@ This is another theorem.
 This is another theorem.  
 \end{thm}
 ```
-![[Pasted image 20210909083427.png]]
+![Pasted image 20210909083427](../../../pictures/Pasted%20image%2020210909083427.png)
 
 ## 抄录环境
 $\LaTeX$ 中有一些特殊字符不能直接输入，如果要排版程序代码就不那么方便，可以使用 `verbatim` 环境

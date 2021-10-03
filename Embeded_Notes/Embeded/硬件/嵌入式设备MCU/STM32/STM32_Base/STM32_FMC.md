@@ -5,7 +5,7 @@ FMC是Flexible Memory Controller的缩写，以为可变存储控制器
 他可以用于驱动包括SRAM、SDRAM、Nor-Flash以及Nand-Flash类型的存储器
 
 ## 框图剖析
-![[Pasted image 20210614033411.png]]
+![Pasted image 20210614033411](../../../../../pictures/Pasted%20image%2020210614033411.png)
 + 通讯引脚
 + 存储器控制器
 + 时钟控制逻辑
@@ -49,7 +49,7 @@ Externam Device区：不支持XIP功能
 
 通过配置"SYSCFG_MEMRMP"寄存器的"SWP_FMC"寄存器位可以用于交换SDRAM与Nand-Flash、PC卡的地址映射，使得存储在SDRAM中的代码能被执行，只是犹豫SDRAM的最高同步时钟会受到限制，代码在SDRAM中执行的速度会受到影响
 
-![[Pasted image 20210614210355.png]]
+![Pasted image 20210614210355](../../../../../pictures/Pasted%20image%2020210614210355.png)
 
 **主要还是查手册**
 SDRAM主要配置控制的参数配置和时钟的参数配置

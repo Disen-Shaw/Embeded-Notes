@@ -1,5 +1,5 @@
 ---
-date updated: '2021-10-01T07:51:11+08:00'
+date updated: '2021-10-03T09:07:56+08:00'
 
 ---
 
@@ -201,7 +201,7 @@ SemaphoreHandle_t xSemaphoreCreateBinaryStatic( StaticSemaphore_t *pxSemaphoreBu
 - pdPASS:  释放信号量成功。
 - errQUEUE_FULL: 释放信号量失败。
 
-释放信号量就是向队列发送消息的过程，只是这里并没有发送具体的消息  
+释放信号量就是向队列发送消息的过程，只是这里并没有发送具体的消息\
 阻塞时间为 0(宏 semGIVE_BLOCK_TIME 为 0)，入队方式采用的后向入队。
 
 ### xSemaphoreGiveFromISR()

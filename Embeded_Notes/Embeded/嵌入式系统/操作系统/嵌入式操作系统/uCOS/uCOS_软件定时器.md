@@ -79,14 +79,14 @@ CPU_BOOLEAN	OSTmrStart(	OS_TMR *p_tmr,
 ### 单次定时器模式
 单次定时器从初始值(OSTmrCreate()函数中的擦书dly)开始倒计时，知道为0位置，单次定时器的定时器只执行一次。  
 如果再要使用，则调用`OSTmrStart()`  
-![[Pasted image 20210711171250.png]]
+![Pasted image 20210711171250](../../../../../pictures/Pasted%20image%2020210711171250.png)
 
 ### 周期模式
 #### 无初始延迟
 创建定时器的时候可以设定为周期模式，当倒计时完成后，定时器调用回调函数，并重置计数器重新开始计时，一直循环下去。  
 如果在调用函数`OSTmrCreate()`创建定时器时让参数`dly`为0，那么定时器每个周期就是`period`  
-![[Pasted image 20210711171220.png]]
+![Pasted image 20210711171220](../../../../../pictures/Pasted%20image%2020210711171220.png)
 
 #### 有初始延迟
 可以设定为带初始延迟时间的运行模式，使用函数`OSYmrCreate()`参数`dly`来确定第一个周期，以后的每个周期开始时将计数器的值重置为`period`  
-![[Pasted image 20210711171715.png]]
+![Pasted image 20210711171715](../../../../../pictures/Pasted%20image%2020210711171715.png)

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6c9c3e5dd1e104d8",
+        "id": "2134241aa7e7fbcc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_二值信号量.md",
+            "file": "Embeded/硬件/Hardware_source.md",
             "mode": "source"
           }
         }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_二值信号量.md",
+                "file": "Embeded/硬件/Hardware_source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,17 +127,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "6c9c3e5dd1e104d8",
+  "active": "2134241aa7e7fbcc",
   "lastOpenFiles": [
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_二值信号量.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/内核驱动编程/Linux_设备驱动中的阻塞与非阻塞IO.md",
-    "Embeded/嵌入式系统/操作系统/计算机操作系统/计算机操作系统_虚拟技术.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linxu_ranger.md",
-    "Embeded/硬件/电路基础/电路图设计/Linux_物理地址与虚拟地址.md",
-    "Embeded/编程语言/Arduino/Arduino_PlatformIO_vim配置.md",
-    "Embeded/编程语言/C语言/C语言函数.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/uCOS/uCOS_消息传递.md",
-    "Embeded/编程语言/Arduino/Arduino_数字IO.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/嵌入式Linux_一切皆文件.md"
+    "Embeded/硬件/Hardware_source.md",
+    "Embeded/硬件/通信知识/通信知识_Source.md",
+    "Embeded/硬件/通信知识/DCMI接口.md",
+    "Embeded/硬件/通信知识/通信基本概念.md",
+    "Embeded/硬件/通信知识/串口通讯.md",
+    "Embeded/硬件/通信知识/SPI协议.md",
+    "Embeded/硬件/通信知识/I2C协议.md",
+    "Embeded/硬件/电路基础/电路原理_Source.md",
+    "Embeded/硬件/电路基础/电路图设计/PCB_四层板与二层板区别.md",
+    "Embeded/硬件/电路基础/电路图设计/Linux_物理地址与虚拟地址.md"
   ]
 }

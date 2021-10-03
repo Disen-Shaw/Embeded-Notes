@@ -3,7 +3,7 @@
 SPI 协议是由摩托罗拉公司提出的通讯协议(Serial Peripheral Interface),即串行外围设备接口,是一种高速全双工的通信总线。它被广泛地使用在 ADC、LCD 等设备与 MCU 间,要求通讯速率较高的场合。
 
 ### SPI物理层
-![[Pasted image 20210310124645.png]]
+![Pasted image 20210310124645](../../../pictures/Pasted%20image%2020210310124645.png)
 
 SPI 通讯使用 3 条总线及片选线,3 条总线分别为 SCK、MOSI、MISO,片选线为SS
 
@@ -15,7 +15,7 @@ SPI通讯以SS线置低电平为开始信号，高电平为结束信号
 
 
 ### SPI通讯过程
-![[Pasted image 20210310124738.png]]
+![Pasted image 20210310124738](../../../pictures/Pasted%20image%2020210310124738.png)
 
 这是一个主机的通讯时序。
 NSS、SCK、MOSI 信号都由主机控制产生,而 MISO 的信号由从机产生
@@ -33,8 +33,8 @@ MOSI及 MISO 数据线在 SCK 的每个时钟周期传输一位数据,且数据�
 MSB 先行或 LSB 先行并没有作硬性规定,但要保证两个 SPI 通讯设备之间使用同样的协定
 
 ### 通讯模式
-![[Pasted image 20210310125136.png]]
-![[Pasted image 20210310125409.png]]
+![Pasted image 20210310125136](../../../pictures/Pasted%20image%2020210310125136.png)
+![Pasted image 20210310125409](../../../pictures/Pasted%20image%2020210310125409.png)
 
 SPI 一共有四种通讯模式,它们的主要区别是总线空闲时 SCK 的时钟状态以及数据采样时刻
 
@@ -65,7 +65,7 @@ QSPI是一种`专用`的通信接口，单连接、双或者四连接SPI Flash�
 
 ### QSPI的协议层
 分为指令、地址、复用字节、空周期和数据
-![[Pasted image 20210611160719.png]]
+![Pasted image 20210611160719](../../../pictures/Pasted%20image%2020210611160719.png)
 指令通过一根数据线传输，数据通过四根数据线传输
 
 

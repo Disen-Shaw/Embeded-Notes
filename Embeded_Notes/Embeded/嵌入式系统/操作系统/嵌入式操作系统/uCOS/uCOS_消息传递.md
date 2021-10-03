@@ -34,7 +34,7 @@ date updated: '2021-10-01T07:46:36+08:00'
 ### 消息队列结构
 
 FIFO结构
-![[Pasted image 20210712150033.png]]
+![Pasted image 20210712150033](../../../../../pictures/Pasted%20image%2020210712150033.png)
 消息队列是uCOSIII中的一个内核对象，为结构体OS_Q，具体定义如下：\
 消息队列架构
 
