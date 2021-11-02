@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2134241aa7e7fbcc",
+        "id": "eb3d3135ff1bcca7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/硬件/Hardware_source.md",
+            "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
             "mode": "source"
           }
         }
@@ -24,7 +24,7 @@
       {
         "id": "11de79f5745f149f",
         "type": "tabs",
-        "dimension": 53.89221556886228,
+        "dimension": 65.95394736842105,
         "children": [
           {
             "id": "ec611554be0dc248",
@@ -52,23 +52,50 @@
         ]
       },
       {
-        "id": "15b46a261c1b15d5",
+        "id": "4de5e4e425e07748",
         "type": "tabs",
-        "dimension": 46.10778443113773,
+        "dimension": 34.04605263157895,
         "children": [
           {
-            "id": "6ae899a7f08333f5",
+            "id": "84b00489783c66f3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "localgraph",
+              "state": {
+                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5639349137498693,
+                  "close": true
+                }
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 392.00000190734863
+    "width": 328.00000190734863
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -79,20 +106,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "541b09ee082a8649",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "cbfbd11ae09ca13a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/硬件/Hardware_source.md",
+                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,24 +139,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "2134241aa7e7fbcc",
+  "active": "eb3d3135ff1bcca7",
   "lastOpenFiles": [
-    "Embeded/硬件/Hardware_source.md",
-    "Embeded/硬件/通信知识/通信知识_Source.md",
-    "Embeded/硬件/通信知识/DCMI接口.md",
-    "Embeded/硬件/通信知识/通信基本概念.md",
-    "Embeded/硬件/通信知识/串口通讯.md",
-    "Embeded/硬件/通信知识/SPI协议.md",
-    "Embeded/硬件/通信知识/I2C协议.md",
-    "Embeded/硬件/电路基础/电路原理_Source.md",
-    "Embeded/硬件/电路基础/电路图设计/PCB_四层板与二层板区别.md",
-    "Embeded/硬件/电路基础/电路图设计/Linux_物理地址与虚拟地址.md"
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
+    "Embeded/编程语言/Python/基础/Python_基本内容.md",
+    "Embeded/编程语言/Python/Python_Source.md",
+    "Embeded/编程语言/Python/基础/Python_基本介绍.md",
+    "Embeded/编程语言/编程语言_Source.md",
+    "Embeded/编程语言/Python/网络爬虫/Python_网络爬虫_Source.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_中断管理_错误码.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_任务基础知识.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LteOS_异常接管_使用方法.md",
+    "Embeded/编程语言/C++/C++_Source.md"
   ]
 }

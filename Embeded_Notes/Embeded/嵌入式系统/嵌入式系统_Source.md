@@ -1,5 +1,6 @@
-# 记录嵌入式系统的基础知识
-[[物联网_Source]]
-[[嵌入式系统案例_Source]]
-[[Embeded/嵌入式系统/操作系统/操作系统_Source]]
-[[机器学习_Source]]
+
+# 嵌入式系统的基础知识
+
+[物联网_Source](物联网/物联网_Source.md)\
+[嵌入式系统案例_Source](嵌入式系统案例/嵌入式系统案例_Source.md)\
+[操作系统_Source](操作系统/操作系统_Source.md)
