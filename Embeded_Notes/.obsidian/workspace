@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
-            "mode": "source"
+            "file": "Embeded/编程语言/C++/C++_Source.md",
+            "mode": "preview"
           }
         }
       }
@@ -62,7 +62,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
+                "file": "Embeded/编程语言/C++/C++_Source.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
+                "file": "Embeded/编程语言/C++/C++_Source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,24 +139,23 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 267.1211242675781,
-    "collapsed": true
+    "width": 267.1211242675781
   },
   "active": "eb3d3135ff1bcca7",
   "lastOpenFiles": [
+    "Embeded/编程语言/C++/C++_Source.md",
+    "Embeded/编程语言/C++/C++基础知识/C++_关键字.md",
+    "Embeded/编程语言/C++/C++基础知识/C++_项目流程.md",
+    "Embeded/编程语言/C++/C++基础知识/C++_变量与常量.md",
+    "Embeded/编程语言/C语言/C_Source.md",
+    "Embeded/编程语言/C语言/C语言数据类型.md",
+    "Embeded/编程语言/C++/C++基础知识/C语言内存分区模型.md",
     "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
     "Embeded/编程语言/Python/基础/Python_基本内容.md",
-    "Embeded/编程语言/Python/Python_Source.md",
-    "Embeded/编程语言/Python/基础/Python_基本介绍.md",
-    "Embeded/编程语言/编程语言_Source.md",
-    "Embeded/编程语言/Python/网络爬虫/Python_网络爬虫_Source.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_中断管理_错误码.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_任务基础知识.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LteOS_异常接管_使用方法.md",
-    "Embeded/编程语言/C++/C++_Source.md"
+    "Embeded/编程语言/Python/Python_Source.md"
   ]
 }
