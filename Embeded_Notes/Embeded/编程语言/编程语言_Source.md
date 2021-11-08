@@ -21,8 +21,8 @@
 
 ## 编程语言
 
-1. [[Arduino_Source]]
-2. [[C++_Source]]
-3. [[C_Source]]
-4. [[LUA_SOURCE]]
-5. [[Python_Source]]
+1. [Arduino_Source](C++/Arduino/Arduino_Source.md)
+2. [C++_Source](C++/C++_Source.md)
+3. [C_Source](C语言/C_Source.md)
+4. [Lua_Source](LUA/Lua_Source.md)
+5. [Python_Source](Python/Python_Source.md)

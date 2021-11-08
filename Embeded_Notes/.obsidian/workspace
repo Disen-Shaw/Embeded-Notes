@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "eb3d3135ff1bcca7",
+        "id": "bda9a1cb17afe456",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/编程语言/C++/C++_Source.md",
-            "mode": "preview"
+            "file": "Embeded/编程语言/C++/C++基础知识/C++_数据类型.md",
+            "mode": "source"
           }
         }
       }
@@ -62,7 +62,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/编程语言/C++/C++_Source.md",
+                "file": "Embeded/编程语言/C++/C++基础知识/C++_数据类型.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -85,7 +85,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5639349137498693,
+                  "scale": 0.8832840665532927,
                   "close": true
                 }
               }
@@ -106,23 +106,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cbfbd11ae09ca13a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Embeded/编程语言/C++/C++_Source.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "0b70e9a53dc448ca",
             "type": "leaf",
             "state": {
@@ -138,24 +121,46 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "162946fc2eb14f28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbfbd11ae09ca13a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Embeded/编程语言/C++/C++基础知识/C++_数据类型.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 267.1211242675781
   },
-  "active": "eb3d3135ff1bcca7",
+  "active": "bda9a1cb17afe456",
   "lastOpenFiles": [
+    "Embeded/编程语言/C++/C++基础知识/C++_数据类型.md",
     "Embeded/编程语言/C++/C++_Source.md",
-    "Embeded/编程语言/C++/C++基础知识/C++_关键字.md",
-    "Embeded/编程语言/C++/C++基础知识/C++_项目流程.md",
-    "Embeded/编程语言/C++/C++基础知识/C++_变量与常量.md",
+    "Embeded/编程语言/C++/opencv/opencv_Source.md",
+    "Embeded/编程语言/编程语言_Source.md",
     "Embeded/编程语言/C语言/C_Source.md",
-    "Embeded/编程语言/C语言/C语言数据类型.md",
-    "Embeded/编程语言/C++/C++基础知识/C语言内存分区模型.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
-    "Embeded/编程语言/Python/基础/Python_基本内容.md",
-    "Embeded/编程语言/Python/Python_Source.md"
+    "Embeded/编程语言/LUA/Lua_Source.md",
+    "Embeded/编程语言/C++/C++基础知识/C++_内存分区模型.md",
+    "Embeded/编程语言/C++/C++基础知识/C++_对C语言的补充.md",
+    "Embeded/编程语言/C语言/c语言内存管理.md",
+    "Embeded/Tools/Markdown_公式.md"
   ]
 }
