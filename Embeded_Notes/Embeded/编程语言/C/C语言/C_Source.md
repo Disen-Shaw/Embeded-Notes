@@ -2,7 +2,7 @@
 哔哩哔哩[黑马程序员笔记]  
 #SOURCE 
 ## 知识目录
-![Pasted image 20210409190046](../../../pictures/Pasted%20image%2020210409190046.png)  
+![Pasted image 20210409190046](../../../../pictures/Pasted%20image%2020210409190046.png)  
 
 
 1. 第一章 	[[C语言概述]]  
