@@ -1,12 +1,12 @@
 # 嵌入式工具相关
 ## 嵌入式以及其他基本工具的使用
-1. [ARM_Tools](ARM_Tools.md)
+1. [ARM工具链](ARM_Tools.md)
 2. [openOCD](openOCD.md)
 3. [ARM-GDB](ARM-GDB.md)
 4. [Makefile](Makefile.md)
 5. [cmake](cmake.md)
 6. [Minicom](Minicom.md)
-7. [Git](Git.md)
+7. [Git](Git/Git_Source.md)
 8. [GCC](GCC.md)
 9. [objdump](objdump.md)
 10. [Markdown](Markdown_公式.md)

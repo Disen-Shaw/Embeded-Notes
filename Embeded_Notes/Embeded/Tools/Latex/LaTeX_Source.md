@@ -5,6 +5,8 @@ date updated: '2021-10-03T08:55:39+08:00'
 
 # LaTeX Source
 
+[LaTex_Makefile](LaTex_Makefile.md)
+
 ## 基础
 
 [Latex_简介](Latex_简介.md)\

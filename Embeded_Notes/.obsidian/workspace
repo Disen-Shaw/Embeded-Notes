@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bda9a1cb17afe456",
+        "id": "8c56dde029b39f60",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/编程语言/C/C++/C++基础知识/C++_程序流程结构.md",
+            "file": "Embeded/Tools/Git/Git_基础.md",
             "mode": "source"
           }
         }
@@ -62,7 +62,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/编程语言/C/C++/C++基础知识/C++_程序流程结构.md",
+                "file": "Embeded/Tools/Git/Git_基础.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.00000190734863
+    "width": 328.00000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -133,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/编程语言/C/C++/C++基础知识/C++_程序流程结构.md",
+                "file": "Embeded/Tools/Git/Git_基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,19 +149,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.1211242675781
+    "width": 267.1211242675781,
+    "collapsed": true
   },
-  "active": "bda9a1cb17afe456",
+  "active": "8c56dde029b39f60",
   "lastOpenFiles": [
-    "Embeded/编程语言/C/C++/C++基础知识/C++_程序流程结构.md",
+    "Embeded/Tools/Git/Git_基础.md",
+    "Embeded/Tools/Git/Git_Source.md",
+    "Embeded/Tools/Embeded_Tool_Source.md",
+    "Embeded/Tools/Git/Git_开始使用.md",
+    "Embeded/Tools/Latex/LaTeX_Source.md",
+    "Embeded/Tools/Latex/LaTex_Makefile.md",
+    "Embeded/编程语言/C/C++/C++基础知识/C++_函数.md",
     "Embeded/编程语言/C/C++/C++_Source.md",
-    "pictures/C++_程序流程结构.md",
-    "Embeded/编程语言/C/C++/C++基础知识/C++_运算符.md",
-    "Embeded/编程语言/C/C++/C++基础知识/C++_数据类型.md",
-    "Embeded/编程语言/C/C++/opencv/opencv_Source.md",
-    "Embeded/编程语言/编程语言_Source.md",
-    "Embeded/编程语言/C/C语言/C_Source.md",
-    "Embeded/编程语言/LUA/Lua_Source.md",
-    "Embeded/编程语言/C/C++/C++基础知识/C++_内存分区模型.md"
+    "Embeded/编程语言/C/C++/C++基础知识/C++_数组.md",
+    "Embeded/编程语言/C/C语言/C语言函数.md"
   ]
 }
