@@ -21,8 +21,10 @@
 
 ## 编程语言
 
-1. [Arduino_Source](C/C++/Arduino/Arduino_Source.md)
-2. [C++_Source](C/C++/C++_Source.md)
-3. [C_Source](C/C语言/C_Source.md)
-4. [Lua_Source](LUA/Lua_Source.md)
-5. [Python_Source](Python/Python_Source.md)
+[C++_Source](编程语言/C/C++/C++_Source.md)\
+[C_Source](编程语言/C/C语言/C_Source.md)
+
+## 脚本
+[Shell_Source](脚本/Shell/Shell_Source.md)
+[Lua_Source](脚本/LUA/Lua_Source.md)\
+[Python_Source](脚本/Python/Python_Source.md)

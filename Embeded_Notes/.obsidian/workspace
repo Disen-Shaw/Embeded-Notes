@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/Tools/Git/Git_基础.md",
+            "file": "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
             "mode": "source"
           }
         }
@@ -62,7 +62,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/Tools/Git/Git_基础.md",
+                "file": "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -85,7 +85,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8832840665532927,
+                  "scale": 0.8675719782468846,
                   "close": true
                 }
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/Tools/Git/Git_基础.md",
+                "file": "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,15 +154,15 @@
   },
   "active": "8c56dde029b39f60",
   "lastOpenFiles": [
-    "Embeded/Tools/Git/Git_基础.md",
-    "Embeded/Tools/Git/Git_Source.md",
-    "Embeded/Tools/Embeded_Tool_Source.md",
-    "Embeded/Tools/Git/Git_开始使用.md",
-    "Embeded/Tools/Latex/LaTeX_Source.md",
-    "Embeded/Tools/Latex/LaTex_Makefile.md",
-    "Embeded/编程语言/C/C++/C++基础知识/C++_函数.md",
-    "Embeded/编程语言/C/C++/C++_Source.md",
-    "Embeded/编程语言/C/C++/C++基础知识/C++_数组.md",
-    "Embeded/编程语言/C/C语言/C语言函数.md"
+    "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
+    "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
+    "Embeded/语言和脚本/脚本/Shell/Shell_变量.md",
+    "Embeded/语言和脚本/脚本/Shell/Shell_传参.md",
+    "Embeded/语言和脚本/脚本/Python/Python_Source.md",
+    "Embeded/语言和脚本/脚本/Python/基础/Python_基本内容.md",
+    "Embeded/语言和脚本/脚本/Python/基础/Python_基本介绍.md",
+    "Embeded/语言和脚本/编程语言和脚本_Source.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/内核驱动编程/Linux_内核模块.md",
+    "pictures/Pasted image 20210308011814.png"
   ]
 }
