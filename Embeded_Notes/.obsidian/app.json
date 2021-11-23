@@ -1,6 +1,6 @@
 {
   "readableLineLength": false,
-  "vimMode": false,
+  "vimMode": true,
   "showLineNumber": true,
   "foldHeading": true,
   "alwaysUpdateLinks": true,

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
-            "mode": "source"
+            "file": "Embeded/Tools/Markdown_公式.md",
+            "mode": "preview"
           }
         }
       }
@@ -62,7 +62,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
+                "file": "Embeded/Tools/Markdown_公式.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
+                "file": "Embeded/Tools/Markdown_公式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +154,7 @@
   },
   "active": "8c56dde029b39f60",
   "lastOpenFiles": [
+    "Embeded/Tools/Markdown_公式.md",
     "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
     "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
     "Embeded/语言和脚本/脚本/Shell/Shell_变量.md",
@@ -162,7 +163,6 @@
     "Embeded/语言和脚本/脚本/Python/基础/Python_基本内容.md",
     "Embeded/语言和脚本/脚本/Python/基础/Python_基本介绍.md",
     "Embeded/语言和脚本/编程语言和脚本_Source.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/内核驱动编程/Linux_内核模块.md",
-    "pictures/Pasted image 20210308011814.png"
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/内核驱动编程/Linux_内核模块.md"
   ]
 }
