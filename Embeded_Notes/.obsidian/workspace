@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
-            "mode": "preview"
+            "file": "Embeded/语言和脚本/Code_Source.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -40,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arch",
+                "query": "<u>",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4de5e4e425e07748",
@@ -63,7 +63,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
+                "file": "Embeded/语言和脚本/Code_Source.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.00000190734863,
-    "collapsed": true
+    "width": 328.00000190734863
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
+                "file": "Embeded/语言和脚本/Code_Source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,15 +154,15 @@
   },
   "active": "8c56dde029b39f60",
   "lastOpenFiles": [
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux.md",
-    "Embeded/语言和脚本/脚本/Shell/Shell_变量.md",
-    "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
-    "Embeded/Tools/Markdown_公式.md",
-    "Embeded/语言和脚本/脚本/Shell/Shell_运算符.md",
-    "Embeded/语言和脚本/脚本/Shell/Shell_传参.md",
-    "Embeded/语言和脚本/脚本/Python/Python_Source.md",
-    "Embeded/语言和脚本/脚本/Python/基础/Python_基本内容.md",
-    "Embeded/语言和脚本/脚本/Python/基础/Python_基本介绍.md",
-    "Embeded/语言和脚本/编程语言和脚本_Source.md"
+    "Embeded/语言和脚本/Code_Source.md",
+    "Embeded/Enbeded_Source.md",
+    "Embeded/嵌入式系统/嵌入式系统_Source.md",
+    "Embeded/嵌入式系统/物联网/物联网_Source.md",
+    "Embeded/嵌入式系统/操作系统/HarmonyOS/鸿蒙_Source.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_Source.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_x86_Source.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_常用命令.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux_Source.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_tar.md"
   ]
 }

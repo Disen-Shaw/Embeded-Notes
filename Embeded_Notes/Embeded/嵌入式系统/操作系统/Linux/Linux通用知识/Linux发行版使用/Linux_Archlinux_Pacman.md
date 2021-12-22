@@ -1,4 +1,4 @@
-# Archlinux
+# Pacman
 ## Pacman使用
 ### 安装软件
 ```shell
@@ -58,3 +58,4 @@ pacman 的更新方式比较激进，如果给某个软件滚崩了，需要回�
 sudo downgrade (包名)
 ```
 接着可以输入选择要回滚的包的版本，进而达成回滚
+

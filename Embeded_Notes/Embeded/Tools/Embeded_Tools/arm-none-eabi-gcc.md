@@ -1,14 +1,11 @@
 # ARM-NONE-EABI-GCC使用
-arm-none-eabi-gcc基本和[GCC](GCC.md)一致
+arm-none-eabi-gcc基本和 [GCC](GNU_Tools/GCC.md) 一致
 ## 第一步 建立文档
 建立文档用来存放整个工程
 
-1. stratup_stm32f10x_hd.s
-
-   从固件库拷贝，
-
+1. stratup_stm32f10x_hd.s\
+	从固件库拷贝
 2. stm32f10x.h 空文件
-
 3. main.c
 
 ~~~c
@@ -32,7 +29,7 @@ void SystemInit(void)
 }
 ~~~
 
-## 第二步 编译
+## 编译
 
 编译时候有两种文件
 
@@ -45,7 +42,7 @@ void SystemInit(void)
 | -mcpu=cortex-m3 | 表明芯片内核(必需) |
 | -g              | 产生调试信息       |
 
-### 启动文件编译
+### 启动文件.s编译
 
 启动文件由汇编文件写成，格式为.s和.S
 
@@ -68,7 +65,7 @@ void SystemInit(void)
 | -fatal-warnings | 将所有警报提示为错误 |
 | --warn          | 正常提示警告信息     |
 
-### 编译启动文件
+#### 编译启动文件
 
 ~~~shell
 arm-none-eabi-gcc -c mthumb -mcpu=cortex-m3 -g -Wa,--warn -o startup_stm32f10x_hd.o  startup_stm32f10x_hd.s
@@ -116,7 +113,7 @@ arm-none-eabi-objcopy test.elf -Oihex test.hex
 
 ## 编写Makefile文件
 
-编写简易[[Makefile]]
+编写简易 [Makefile](../GNU_Tools/Makefile.md)
 
 ~~~makefile
 TARGET=test
@@ -142,13 +139,18 @@ clean:
     $(RM) *.o $(TARGET).*
 ~~~
 
-最后可以通过openOCD工具来对开发板进行烧录[[openOCD]]，并进行调试。
+最后可以通过 [openOCD](openOCD.md) 工具来对开发板进行烧录，并进行调试。
 
 # objdump反汇编用法
-objdump是用查看目标文件或者可执行的目标文件的构成的GCC工具
+
+objdump是用查看目标文件或者可执行的目标文件的构成的GCC工具\
+
+```shell
 objdump -x obj 
-以某种分类信息的形式把目标文件的数据组织（被分为几大块）输出 <可查到该文件的所有动态库>
-objdump -t obj 输出目标文件的符号表()
-objdump -h obj 输出目标文件的所有段概括()
+```
+
+以某种分类信息的形式把目标文件的数据组织（被分为几大块）输出 <可查到该文件的所有动态库>\
+objdump -t obj 输出目标文件的符号表()\
+objdump -h obj 输出目标文件的所有段概括()\
 objdump -S obj C语言与汇编语言同时显示
 

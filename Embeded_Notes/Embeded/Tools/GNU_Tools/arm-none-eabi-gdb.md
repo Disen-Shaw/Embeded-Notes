@@ -1,8 +1,3 @@
----
-date updated: '2021-10-01T07:32:56+08:00'
-
----
-
 # ARM-GDB
 
 ## 启动arm-none-eabi-gdb
@@ -80,3 +75,4 @@ target remote localhost:3333
 ## 开启GDb的GUI调试
 
 进入gdb后输入`-`可以开启GUI的调试界面，进入UI界面后可以根据上面的指令进行调试
+- [] 

@@ -4,7 +4,7 @@
 
 ### shell 基本介绍
 
-Shell 是一个用 [C语言](../../编程语言/C/C语言/C_Source.md) 编写的程序，它是用户使用 [Linux_Source](../../../嵌入式系统/操作系统/Linux/Linux_Source.md) 的桥梁。\
+Shell 是一个用 [C语言](../../编程语言/C系语言/C语言/C_Source.md) 编写的程序，它是用户使用 [Linux_Source](../../../嵌入式系统/操作系统/Linux/Linux_Source.md) 的桥梁。\
 Shell **既是一种命令语言，又是一种程序设计语言**
 
 Shell 是指一种应用程序，这个应用程序提供了一个界面，用户通过这个界面 **访问操作系统内核** 的服务

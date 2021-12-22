@@ -18,5 +18,7 @@
     "downscalePercent": 100
   },
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "legacyEditor": false,
+  "livePreview": true
 }

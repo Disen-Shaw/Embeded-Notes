@@ -1,6 +1,4 @@
-# 嵌入式软件知识根目录
-
-#SOURCE
+# 嵌入式软件知识根目录 #SOURCE
 
 ## 面向过程
 
@@ -20,9 +18,9 @@
 - 多态：给函数指针附不同的值来完成不同的行为
 
 ## 编程语言
-
-[C++_Source](编程语言/C/C++/C++_Source.md)\
-[C_Source](编程语言/C/C语言/C_Source.md)
+### C系语言
+[C++_Source](编程语言/C系语言/C++/C++_Source.md)\
+[C_Source](编程语言/C系语言/C语言/C_Source.md)
 
 ## 脚本
 [Shell_Source](脚本/Shell/Shell_Source.md)
