@@ -1,6 +1,6 @@
 {
   "cssTheme": "Obsdn-Dark-Rmx",
-  "baseFontSize": 14,
-  "translucency": true,
+  "baseFontSize": 15,
+  "translucency": false,
   "theme": "obsidian"
 }

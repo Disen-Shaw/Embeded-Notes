@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/语言和脚本/Code_Source.md",
-            "mode": "preview",
+            "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_补丁工具.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -63,7 +63,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/语言和脚本/Code_Source.md",
+                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_补丁工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.00000190734863
+    "width": 328.00000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -134,14 +135,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/语言和脚本/Code_Source.md",
+                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_补丁工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -154,15 +155,15 @@
   },
   "active": "8c56dde029b39f60",
   "lastOpenFiles": [
-    "Embeded/语言和脚本/Code_Source.md",
-    "Embeded/Enbeded_Source.md",
-    "Embeded/嵌入式系统/嵌入式系统_Source.md",
-    "Embeded/嵌入式系统/物联网/物联网_Source.md",
-    "Embeded/嵌入式系统/操作系统/HarmonyOS/鸿蒙_Source.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_Source.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_补丁工具.md",
     "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_x86_Source.md",
     "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_常用命令.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux发行版使用/Linux_Archlinux_Source.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_tar.md"
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_tar.md",
+    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_常用半导体器件.md",
+    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_半导体基础知识.md",
+    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_场效应管的工作原理.md",
+    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_半导体三极管.md",
+    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_半导体二极管.md",
+    "Embeded/硬件/电路基础/模电/模电_Source.md"
   ]
 }

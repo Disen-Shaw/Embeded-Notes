@@ -9,4 +9,5 @@
 ### 工具
 [Linxu_ranger](Linux工具/Linxu_ranger.md)  
 [Linux_tar](Linux工具/Linux_tar.md)
+[Linux_补丁工具](Linux工具/Linux_补丁工具.md)
 
