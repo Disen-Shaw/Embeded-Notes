@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8c56dde029b39f60",
+        "id": "2fa02c6731cafb06",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_补丁工具.md",
+            "file": "LaTeX_参考文献.md",
             "mode": "source",
             "source": false
           }
@@ -25,7 +25,6 @@
       {
         "id": "11de79f5745f149f",
         "type": "tabs",
-        "dimension": 65.95394736842105,
         "children": [
           {
             "id": "ec611554be0dc248",
@@ -55,7 +54,6 @@
       {
         "id": "4de5e4e425e07748",
         "type": "tabs",
-        "dimension": 34.04605263157895,
         "children": [
           {
             "id": "84b00489783c66f3",
@@ -63,7 +61,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_补丁工具.md",
+                "file": "LaTeX_参考文献.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -96,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.00000190734863,
-    "collapsed": true
+    "width": 328.00000190734863
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -135,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_补丁工具.md",
+                "file": "LaTeX_参考文献.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,17 +150,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "8c56dde029b39f60",
+  "active": "2fa02c6731cafb06",
   "lastOpenFiles": [
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_补丁工具.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_x86_Source.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_常用命令.md",
-    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_tar.md",
-    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_常用半导体器件.md",
-    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_半导体基础知识.md",
-    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_场效应管的工作原理.md",
-    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_半导体三极管.md",
-    "Embeded/硬件/电路基础/模电/常用半导体器件/模电_半导体二极管.md",
-    "Embeded/硬件/电路基础/模电/模电_Source.md"
+    "LaTeX_参考文献.md",
+    "Embeded/Tools/LaTeX/LaTeX_Source.md",
+    "Embeded/Tools/LaTeX/LaTeX_数学公式.md",
+    "Embeded/Tools/Markdown.md",
+    "Embeded/Tools/LaTeX/LaTeX_特殊字符.md",
+    "Embeded/Tools/LaTeX/LaTeX_基本语法.md",
+    "Embeded/Tools/LaTeX/LaTeX_插图和表格.md",
+    "Embeded/Tools/LaTeX/LaTeX_篇章结构.md",
+    "Embeded/Tools/LaTeX/LaTeX_基本结构.md",
+    "Embeded/Tools/LaTeX/LaTeX_基本准备.md"
   ]
 }
