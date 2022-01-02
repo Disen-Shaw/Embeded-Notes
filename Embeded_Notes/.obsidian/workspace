@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "LaTeX_参考文献.md",
+            "file": "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -61,7 +61,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LaTeX_参考文献.md",
+                "file": "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LaTeX_参考文献.md",
+                "file": "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,15 +152,15 @@
   },
   "active": "2fa02c6731cafb06",
   "lastOpenFiles": [
-    "LaTeX_参考文献.md",
+    "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
+    "Embeded/语言和脚本/编程语言/C系语言/C++/C++_Source.md",
+    "Embeded/语言和脚本/编程语言/C系语言/C++/C++基础知识/C++_指针.md",
+    "Embeded/语言和脚本/编程语言/C系语言/C++/C++基础知识/C++_函数.md",
+    "Embeded/Tools/LaTeX/LaTeX_参考文献.md",
     "Embeded/Tools/LaTeX/LaTeX_Source.md",
     "Embeded/Tools/LaTeX/LaTeX_数学公式.md",
     "Embeded/Tools/Markdown.md",
     "Embeded/Tools/LaTeX/LaTeX_特殊字符.md",
-    "Embeded/Tools/LaTeX/LaTeX_基本语法.md",
-    "Embeded/Tools/LaTeX/LaTeX_插图和表格.md",
-    "Embeded/Tools/LaTeX/LaTeX_篇章结构.md",
-    "Embeded/Tools/LaTeX/LaTeX_基本结构.md",
-    "Embeded/Tools/LaTeX/LaTeX_基本准备.md"
+    "Embeded/Tools/LaTeX/LaTeX_基本语法.md"
   ]
 }
