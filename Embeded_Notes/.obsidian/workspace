@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
+            "file": "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
             "mode": "source",
             "source": true
           }
@@ -61,7 +61,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
+                "file": "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
+                "file": "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,15 +152,15 @@
   },
   "active": "2fa02c6731cafb06",
   "lastOpenFiles": [
+    "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
+    "Embeded/基础学科/电学/电学_Source.md",
+    "Embeded/基础学科/基础学科_Source.md",
+    "PCB_Other.md",
+    "Embeded/硬件/电路基础/电路图设计/PCB_Source.md",
+    "Embeded/硬件/电路基础/电路图设计/PCB_设计流程.md",
+    "Embeded/硬件/电路基础/电路图设计/PCB_多层板.md",
+    "Embeded/硬件/电路基础/电路图设计/PCB_EDA类软件通用规则.md",
     "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
-    "Embeded/语言和脚本/编程语言/C系语言/C++/C++_Source.md",
-    "Embeded/语言和脚本/编程语言/C系语言/C++/C++基础知识/C++_指针.md",
-    "Embeded/语言和脚本/编程语言/C系语言/C++/C++基础知识/C++_函数.md",
-    "Embeded/Tools/LaTeX/LaTeX_参考文献.md",
-    "Embeded/Tools/LaTeX/LaTeX_Source.md",
-    "Embeded/Tools/LaTeX/LaTeX_数学公式.md",
-    "Embeded/Tools/Markdown.md",
-    "Embeded/Tools/LaTeX/LaTeX_特殊字符.md",
-    "Embeded/Tools/LaTeX/LaTeX_基本语法.md"
+    "Embeded/语言和脚本/编程语言/C系语言/C++/C++_Source.md"
   ]
 }

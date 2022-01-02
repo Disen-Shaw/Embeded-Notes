@@ -4,3 +4,4 @@
 [PCB_EDA类软件通用规则](PCB_EDA类软件通用规则.md)\
 [PCB_四层板与二层板区别](PCB_四层板与二层板区别.md)\
 [PCB_多层板](PCB_多层板.md)
+[PCB_Other](../../../../PCB_Other.md)
