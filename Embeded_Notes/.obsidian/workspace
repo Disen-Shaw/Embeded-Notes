@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
+            "file": "Embeded/语言和脚本/编程语言/Java/Java_Source.md",
             "mode": "source",
             "source": true
           }
@@ -61,7 +61,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
+                "file": "Embeded/语言和脚本/编程语言/Java/Java_Source.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -84,7 +84,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8675719782468846,
+                  "scale": 0.17879614226215024,
                   "close": true
                 }
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.00000190734863
+    "width": 328.00000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -132,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
+                "file": "Embeded/语言和脚本/编程语言/Java/Java_Source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,15 +153,15 @@
   },
   "active": "2fa02c6731cafb06",
   "lastOpenFiles": [
+    "Embeded/语言和脚本/编程语言/Java/Java_Source.md",
+    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_数据的输入与输出.md",
+    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_基本知识.md",
+    "未命名.md",
+    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_工程的基本流程.md",
+    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_常用Dos命令.md",
+    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_前提知识.md",
+    "Embeded/语言和脚本/Code_Source.md",
     "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
-    "Embeded/基础学科/电学/电学_Source.md",
-    "Embeded/基础学科/基础学科_Source.md",
-    "PCB_Other.md",
-    "Embeded/硬件/电路基础/电路图设计/PCB_Source.md",
-    "Embeded/硬件/电路基础/电路图设计/PCB_设计流程.md",
-    "Embeded/硬件/电路基础/电路图设计/PCB_多层板.md",
-    "Embeded/硬件/电路基础/电路图设计/PCB_EDA类软件通用规则.md",
-    "Embeded/语言和脚本/编程语言/C系语言/C++/C++_结构体.md",
-    "Embeded/语言和脚本/编程语言/C系语言/C++/C++_Source.md"
+    "Embeded/基础学科/电学/电学_Source.md"
   ]
 }
