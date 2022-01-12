@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/语言和脚本/编程语言/Java/Java_Source.md",
+            "file": "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
             "mode": "source",
             "source": true
           }
@@ -61,7 +61,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/语言和脚本/编程语言/Java/Java_Source.md",
+                "file": "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.00000190734863,
-    "collapsed": true
+    "width": 288.0086479187012
   },
   "right": {
     "id": "218c1e615adc48d9",
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/语言和脚本/编程语言/Java/Java_Source.md",
+                "file": "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,15 +152,14 @@
   },
   "active": "2fa02c6731cafb06",
   "lastOpenFiles": [
-    "Embeded/语言和脚本/编程语言/Java/Java_Source.md",
-    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_数据的输入与输出.md",
-    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_基本知识.md",
-    "未命名.md",
-    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_工程的基本流程.md",
-    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_常用Dos命令.md",
-    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_前提知识.md",
-    "Embeded/语言和脚本/Code_Source.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_基础.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_Source.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_属性.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_基本介绍.md",
     "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
-    "Embeded/基础学科/电学/电学_Source.md"
+    "Embeded/语言和脚本/Code_Source.md",
+    "Embeded/语言和脚本/脚本/LUA/LUA_基本语法.md",
+    "Embeded/语言和脚本/脚本/LUA/Lua_Source.md"
   ]
 }
