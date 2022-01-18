@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
+            "file": "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -61,7 +61,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
+                "file": "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -84,7 +84,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.17879614226215024,
+                  "scale": 0.5845459638412125,
                   "close": true
                 }
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
+                "file": "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,14 +152,15 @@
   },
   "active": "2fa02c6731cafb06",
   "lastOpenFiles": [
-    "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
-    "Embeded/语言和脚本/前端/HTML/HTML_基础.md",
-    "Embeded/语言和脚本/前端/HTML/HTML_Source.md",
-    "Embeded/语言和脚本/前端/HTML/HTML_属性.md",
-    "Embeded/语言和脚本/前端/HTML/HTML_基本介绍.md",
-    "Embeded/基础学科/电学/电学基础/电学基础_绪论.md",
-    "Embeded/语言和脚本/Code_Source.md",
+    "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
+    "Embeded/语言和脚本/脚本/Shell/Shell_通配符与正则表达式.md",
+    "Embeded/语言和脚本/脚本/Shell/Shell_变量.md",
+    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_前提知识.md",
+    "PCB_Other.md",
+    "Embeded/Tools/GNU_Tools/scp.md",
+    "Embeded/Tools/Tool_Source.md",
     "Embeded/语言和脚本/脚本/LUA/LUA_基本语法.md",
-    "Embeded/语言和脚本/脚本/LUA/Lua_Source.md"
+    "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_基础.md"
   ]
 }
