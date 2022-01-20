@@ -1,7 +1,8 @@
-# 前端 HTML 根目录
+# HTML 学习
 
-## HTML 基础内容
-[HTML_基本介绍](HTML_基本介绍.md)\
-[HTML_基础](HTML_基础.md)\
-[[HTML_元素]]
-[HTML_属性](HTML_属性.md)
+[黑马前端](https://www.bilibili.com/video/BV14J4114768?p=6&spm_id_from=pageDriver)
+
+## 基础
+[HTML_网页](HTML_网页.md)\
+[HTML_标签](HTML_标签.md)
++ [HTML_常用标签](HTML_常用标签.md)

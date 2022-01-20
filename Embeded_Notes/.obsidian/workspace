@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2fa02c6731cafb06",
+        "id": "3fc1ac9011ebe698",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -61,7 +57,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -84,7 +79,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5845459638412125,
+                  "scale": 0.8470564748608539,
                   "close": true
                 }
               }
@@ -132,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,17 +144,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "2fa02c6731cafb06",
+  "active": "3fc1ac9011ebe698",
   "lastOpenFiles": [
-    "Embeded/语言和脚本/脚本/Shell/Shell_Source.md",
-    "Embeded/语言和脚本/脚本/Shell/Shell_通配符与正则表达式.md",
-    "Embeded/语言和脚本/脚本/Shell/Shell_变量.md",
-    "Embeded/语言和脚本/编程语言/Java/基础Java/Java_前提知识.md",
-    "PCB_Other.md",
-    "Embeded/Tools/GNU_Tools/scp.md",
-    "Embeded/Tools/Tool_Source.md",
-    "Embeded/语言和脚本/脚本/LUA/LUA_基本语法.md",
-    "Embeded/语言和脚本/前端/HTML/HTML_元素.md",
-    "Embeded/语言和脚本/前端/HTML/HTML_基础.md"
+    "Embeded/基础学科/基础学科_Source.md",
+    "Embeded/硬件/通信知识/MCU通信协议/通信协议_I2C协议.md",
+    "Embeded/硬件/通信知识/MCU通信协议/通信协议_串口通讯.md",
+    "Embeded/硬件/通信知识/MCU通信协议/通信协议_SPI协议.md",
+    "Embeded/硬件/电路基础/电路图设计/PCB_Source.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_Source.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_常用标签.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_标签.md",
+    "Embeded/Tools/Markdown.md",
+    "Embeded/语言和脚本/前端/HTML/HTML_网页.md"
   ]
 }
