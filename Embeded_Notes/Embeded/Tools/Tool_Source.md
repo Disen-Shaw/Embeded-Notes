@@ -16,6 +16,7 @@
 
 1. [LaTeX](LaTeX/LaTeX_Source.md)
 2. [Markdown](Markdown.md)
+3. [Vim(Neovim)](GNU_Tools/Vim(Neovim)/Vim_Source.md)
 
 ## 服务器工具
 1.  [samba](samba.md)
