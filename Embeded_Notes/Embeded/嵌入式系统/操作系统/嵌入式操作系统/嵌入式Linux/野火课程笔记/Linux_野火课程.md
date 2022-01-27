@@ -1,21 +1,26 @@
-
 # 野火开发板配套课程
 
 -- Embeded Fire
 
 ## 入门
 
-[嵌入式Linux_基本知识](嵌入式Linux_基本知识.md)\
-[嵌入式linux_开发环境](嵌入式linux_开发环境.md)\
-[嵌入式Linux_iMX系列处理器](嵌入式Linux_iMX系列处理器.md)\
-[嵌入式Linux_开发板简介](嵌入式Linux_开发板简介.md)\
-[嵌入式Linux_点亮LED](嵌入式Linux_点亮LED.md)\
-[嵌入式Linux_NFS服务器](入门/嵌入式Linux_NFS服务器.md)\
-[嵌入式Linux_基础](嵌入式Linux_基础.md)\
-[嵌入式Linux_一切皆文件](嵌入式Linux_一切皆文件.md)\
-[嵌入式Linux_文件描述符和打开方式](嵌入式Linux_文件描述符和打开方式.md)\
-[嵌入式Linux_控制外设设备](嵌入式Linux_控制外设设备.md)
+[基本知识](嵌入式Linux_基本知识.md)\
+[开发环境](嵌入式linux_开发环境.md)\
+[iMX系列处理器](嵌入式Linux_iMX系列处理器.md)\
+[开发板简介](嵌入式Linux_开发板简介.md)\
+[点亮LED](嵌入式Linux_点亮LED.md)\
+[NFS服务器](入门/嵌入式Linux_NFS服务器.md)\
+[交叉编译](入门/嵌入式Linux_交叉编译.md)\
+[一切皆文件](嵌入式Linux_一切皆文件.md)\
+[文件描述符和打开方式](嵌入式Linux_文件描述符和打开方式.md)\
+[控制外设设备](嵌入式Linux_控制外设设备.md)
 
 ## 内核编程
 
-[进程的由来](内核编程/嵌入式Linux_野火_进程.md)
+### 进程
+
+[进程的由来](内核编程/嵌入式Linux_野火_进程.md)\
+[进程组、会话和终端](内核编程/嵌入式Linux_野火_进程组会话与终端.md)\
+[进程间通信](内核编程/嵌入式Linux_野火_进程间通信.md)\
+[信号](内核编程/嵌入式Linux_野火_信号.md)\
+[System-V](内核编程/嵌入式Linux_野火_System-V.md)

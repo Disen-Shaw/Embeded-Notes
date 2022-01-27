@@ -142,3 +142,23 @@ pid_t wait(int *status);
  */
 ```
 
+## 进程的产生运行和结束
+
+```mermaid
+graph LR;
+fork创建进程-->就绪态--调度器-->运行态--exit-->僵尸态--wait-->死亡态
+运行态--时间片消耗光-->就绪态
+运行态--等待资源/sleep-->睡眠态--资源就绪/睡眠结束-->就绪态
+运行态--信号/调试-->暂停态--继续运行-->就绪态
+```
+
+### 进程状态
+
+- TASK_RUNNING：就绪/运行态
+- TASK_INTERRUPTIBLE：可中断睡眠态
+- TASK_UNINTERRUPTIBLE：不可中断睡眠态
+- TASK_TRACED：调试状态
+- TASK_STOPPED：暂停态
+- EXIT_ZOMBIE：僵尸态
+- EXIT_DEAD：死亡态
+

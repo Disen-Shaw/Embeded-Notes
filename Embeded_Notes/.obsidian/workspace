@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a889e36a708f4ab8",
+        "id": "5b7e4f971563f4ce",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/内核编程/嵌入式Linux_野火_System-V.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<u>",
+                "query": "原子",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,6 +61,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/内核编程/嵌入式Linux_野火_System-V.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -127,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/内核编程/嵌入式Linux_野火_System-V.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,17 +150,17 @@
     "width": 267.1211242675781,
     "collapsed": true
   },
-  "active": "a889e36a708f4ab8",
+  "active": "5b7e4f971563f4ce",
   "lastOpenFiles": [
-    "Embeded/硬件/电子元器件/输出设备/电子器件_电机/电机_稚晖分享.md",
-    "Embeded/硬件/嵌入式设备MCU/STM32/STM32_Base/STM32_高级定时器.md",
-    "pictures/Pasted image 20210920013024.png",
-    "pictures/Pasted image 20210908220934.png",
-    "pictures/Pasted image 20210920030202.png",
-    "pictures/Pasted image 20210308223106.png",
-    "pictures/Pasted image 20210908222046.png",
-    "pictures/Pasted image 20210908214715.png",
-    "pictures/Pasted image 20210908215947.png",
-    "pictures/Pasted image 20210309171053.png"
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/内核编程/嵌入式Linux_野火_System-V.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/Linux_野火课程.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/内核编程/嵌入式Linux_野火_信号.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/内核编程/嵌入式Linux_野火_进程间通信.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/内核驱动编程/书上内容笔记/Linux_设备驱动中的并发控制.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/内核编程/嵌入式Linux_野火_进程组会话与终端.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/内核编程/嵌入式Linux_野火_进程.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/嵌入式Linux/野火课程笔记/入门/嵌入式Linux_Source.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux工具/Linux_ps命令.md",
+    "Embeded/嵌入式系统/操作系统/Linux/Linux通用知识/Linux_x86_Source.md"
   ]
 }
