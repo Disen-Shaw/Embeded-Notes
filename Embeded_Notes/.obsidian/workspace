@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "c40c62a019edf835",
+        "id": "3e7cc1070c1b0245",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Embeded/Tools/GNU_Tools/arm-none-eabi-gdb.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -85,19 +84,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "c40c62a019edf835",
+  "active": "3e7cc1070c1b0245",
   "lastOpenFiles": [
     "Embeded/Tools/GNU_Tools/arm-none-eabi-gdb.md",
-    "Embeded/Tools/Tool_Source.md",
+    "Embeded/语言和脚本/编程语言/C系语言/C++/Qt/Qt_信号和槽.md",
+    "Qt opencv.md",
+    "Embeded/硬件/嵌入式设备MCU/STM32/STM32_Base/STM32_RCC时钟结构.md",
     "Embeded/Tools/Embeded_Tools/arm-none-eabi-gcc.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_Source.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务管理.md",
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_任务_API.md",
     "Embeded/Tools/Embeded_Tools/openOCD.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_Source.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_低功耗Tickless模式.md",
-    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/FreeRTOS/FreeRTOS_队列.md",
-    "Embeded/硬件/嵌入式设备MCU/ESP8266/ESP8266_模式.md",
-    "Embeded/语言和脚本/编程语言/C系语言/C++/Arduino/Arduino_PlatformIO_vim配置.md",
-    "Embeded/Tools/GNU_Tools/Vim(Neovim)/Vimscripts/Vim_基本设置.md"
+    "Embeded/嵌入式系统/操作系统/嵌入式操作系统/LiteOS/LiteOS_简介.md"
   ]
 }
